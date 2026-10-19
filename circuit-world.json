@@ -13,6 +13,13 @@
       "summary": "A white full-moon disc with a ring of light: the full moon behind the castle in a monster film."
     },
     {
+      "slug": "big-paw",
+      "path": "boards/big-paw",
+      "title": "HeyPCB Paw Print",
+      "role": "Paw Print LED art, purple mask",
+      "summary": "A purple paw print that lights toe by toe, for the hero dog of a family adventure film."
+    },
+    {
       "slug": "blast-gear",
       "path": "boards/blast-gear",
       "title": "HeyPCB Clockwork",
@@ -25,6 +32,13 @@
       "title": "HeyPCB Heartbeat",
       "role": "Heartbeat LED art, red mask",
       "summary": "A red heart whose outline beats like the hospital monitor in a medical drama: slow and steady, faster when you tap MODE."
+    },
+    {
+      "slug": "castle-key",
+      "path": "boards/castle-key",
+      "title": "HeyPCB Castle Key",
+      "role": "Castle Key LED art, black mask",
+      "summary": "A black key to the castle gate in a medieval film, lit in torch orange."
     },
     {
       "slug": "chest-reactor",
@@ -48,6 +62,13 @@
       "summary": "A purple diamond crystal with light running up its facets: the power crystal every fantasy quest is chasing."
     },
     {
+      "slug": "deep-fish",
+      "path": "boards/deep-fish",
+      "title": "HeyPCB Deep Sea",
+      "role": "Deep Sea LED art, blue mask",
+      "summary": "A blue fish lit along its fins like the glowing creatures of a deep-sea documentary."
+    },
+    {
       "slug": "donut",
       "path": "boards/donut",
       "title": "HeyPCB Donut",
@@ -69,11 +90,25 @@
       "summary": "A green flying saucer with running lights round its rim and dome: the drive-in alien invasion, landed on your desk."
     },
     {
+      "slug": "forest-leaf",
+      "path": "boards/forest-leaf",
+      "title": "HeyPCB Forest",
+      "role": "Forest LED art, green mask",
+      "summary": "A green leaf with a glowing edge, from the enchanted forest of an animated film."
+    },
+    {
       "slug": "galaxy",
       "path": "boards/galaxy",
       "title": "HeyPCB Galaxy",
       "role": "Galaxy LED art, purple mask",
       "summary": "A purple eight-point star whose light spirals out like a galaxy on a starship's viewscreen."
+    },
+    {
+      "slug": "ghost-ship",
+      "path": "boards/ghost-ship",
+      "title": "HeyPCB Ghost Ship",
+      "role": "Ghost Ship LED art, white mask",
+      "summary": "A white flying saucer that pulses a slow beam, for the alien-encounter film set on a quiet farm."
     },
     {
       "slug": "ghost-trap",
@@ -132,6 +167,13 @@
       "summary": "A black shield for the knight in a medieval epic, with a rim that glows like torchlight."
     },
     {
+      "slug": "koi",
+      "path": "boards/koi",
+      "title": "HeyPCB Koi",
+      "role": "Koi LED art, red mask",
+      "summary": "A red koi that swims colour along its body, from the garden pond of a quiet drama."
+    },
+    {
       "slug": "lucky-heart",
       "path": "boards/lucky-heart",
       "title": "HeyPCB Love Letter",
@@ -181,6 +223,13 @@
       "summary": "A smaller purple ghost that jumps from dim to bright when you press MODE: a jump-scare in a pocket."
     },
     {
+      "slug": "orbit",
+      "path": "boards/orbit",
+      "title": "HeyPCB Orbit",
+      "role": "Orbit LED art, black mask",
+      "summary": "A black ringed planet whose ring lights chase round like a moon in orbit."
+    },
+    {
       "slug": "pentagon",
       "path": "boards/pentagon",
       "title": "HeyPCB Pentagon",
@@ -223,6 +272,13 @@
       "summary": "A yellow six-point star with a lit rim: the sheriff's badge from every western, as a pin that glows at sundown."
     },
     {
+      "slug": "skeleton-key",
+      "path": "boards/skeleton-key",
+      "title": "HeyPCB Skeleton Key",
+      "role": "Skeleton Key LED art, yellow mask",
+      "summary": "A yellow skeleton key lit from bow to bit: the key to the locked room in every mystery film."
+    },
+    {
       "slug": "snow-crystal",
       "path": "boards/snow-crystal",
       "title": "HeyPCB Snowflake",
@@ -258,6 +314,13 @@
       "summary": "A black saucer whose running lights blink green, for the night the visitors land in the cornfield."
     },
     {
+      "slug": "vampire",
+      "path": "boards/vampire",
+      "title": "HeyPCB Vampire",
+      "role": "Vampire LED art, red mask",
+      "summary": "A red bat for a gothic vampire film, glowing deep red with a slow heartbeat."
+    },
+    {
       "slug": "war-gear",
       "path": "boards/war-gear",
       "title": "HeyPCB Engine Room",
@@ -270,6 +333,13 @@
       "title": "HeyPCB Wizard",
       "role": "Wizard LED art, blue mask",
       "summary": "A blue seven-point star like the ones on a wizard's robe in a fantasy film."
+    },
+    {
+      "slug": "xmas-tree",
+      "path": "boards/xmas-tree",
+      "title": "HeyPCB Winter Tree",
+      "role": "Winter Tree LED art, green mask",
+      "summary": "A green pine tree that twinkles in colours, for the holiday film that plays every December."
     }
   ]
 }

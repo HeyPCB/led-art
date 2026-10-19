@@ -1,0 +1,7540 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d567c7f3-0f05-5082-a9ad-e9e7f5e7c957")
+	(paper "A3")
+	(title_block
+		(title "HeyPCB CASTLE KEY - Castle Key LED art board")
+		(date "2026-10-19")
+		(rev "A")
+		(company "HeyPCB method / pure KiCad")
+		(comment 1 "Generated from blocks -> design.json by heypcb-kicad")
+	)
+	(lib_symbols
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+			(pin_names (offset 1.016))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81)
+						(xy -8.89 3.81)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type outline))
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type none))
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type outline))
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type none))
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type outline))
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81)
+						(xy -5.08 -3.81)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke (width 0.254) (type default))
+					(fill (type outline))
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318)
+						(xy 0 6.858)
+						(xy 1.27 4.318)
+						(xy -1.27 4.318)
+					)
+					(stroke (width 0.254) (type default))
+					(fill (type outline))
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032)
+						(xy 2.54 0.508)
+						(xy 2.54 1.778)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302)
+						(xy -2.54 -0.762)
+						(xy -2.54 0.508)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842)
+						(xy 0 4.318)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke (width 0) (type default))
+					(fill (type outline))
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke (width 0.254) (type default))
+					(fill (type outline))
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND" (effects (font (size 1.27 1.27))))
+					(number "A1" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS" (effects (font (size 1.27 1.27))))
+					(number "A4" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1" (effects (font (size 1.27 1.27))))
+					(number "A5" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+" (effects (font (size 1.27 1.27))))
+					(number "A6" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-" (effects (font (size 1.27 1.27))))
+					(number "A7" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1" (effects (font (size 1.27 1.27))))
+					(number "A8" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS" (effects (font (size 1.27 1.27))))
+					(number "A9" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND" (effects (font (size 1.27 1.27))))
+					(number "A12" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND" (effects (font (size 1.27 1.27))))
+					(number "B1" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS" (effects (font (size 1.27 1.27))))
+					(number "B4" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2" (effects (font (size 1.27 1.27))))
+					(number "B5" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+" (effects (font (size 1.27 1.27))))
+					(number "B6" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-" (effects (font (size 1.27 1.27))))
+					(number "B7" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2" (effects (font (size 1.27 1.27))))
+					(number "B8" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS" (effects (font (size 1.27 1.27))))
+					(number "B9" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND" (effects (font (size 1.27 1.27))))
+					(number "B12" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD" (effects (font (size 1.27 1.27))))
+					(number "SH" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers (hide yes))
+			(pin_names (offset 0.254))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers (hide yes))
+			(pin_names (offset 0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke (width 0.254) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCU_WCH_RiscV:CH32V003FxPx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "CH32V003FxPx"
+				(at 7.62 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" "https://www.wch-ic.com/products/CH32V003.html"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "microcontroller wch RISC-V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "CH32V003FxPx_1_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "PD4" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+					(alternate "A7" bidirectional line)
+					(alternate "OPO" bidirectional line)
+					(alternate "T1CH4_3" bidirectional line)
+					(alternate "T2CH1ETR" bidirectional line)
+					(alternate "TIETR_2" bidirectional line)
+					(alternate "UCK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "PD5" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
+					(alternate "A5" bidirectional line)
+					(alternate "T2CH4_3" bidirectional line)
+					(alternate "URX_2" bidirectional line)
+					(alternate "UTX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PD6" (effects (font (size 1.27 1.27))))
+					(number "3" (effects (font (size 1.27 1.27))))
+					(alternate "A6" bidirectional line)
+					(alternate "T2CH3_3" bidirectional line)
+					(alternate "URX" bidirectional line)
+					(alternate "UTX_2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "PD7" (effects (font (size 1.27 1.27))))
+					(number "4" (effects (font (size 1.27 1.27))))
+					(alternate "NRST" bidirectional line)
+					(alternate "OPP1" bidirectional line)
+					(alternate "T2CH4" bidirectional line)
+					(alternate "T2CH4_2" bidirectional line)
+					(alternate "UCK_1" bidirectional line)
+					(alternate "UCK_2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "PA1" (effects (font (size 1.27 1.27))))
+					(number "5" (effects (font (size 1.27 1.27))))
+					(alternate "A1" bidirectional line)
+					(alternate "OPN0" bidirectional line)
+					(alternate "OSCI" bidirectional line)
+					(alternate "T1CH2" bidirectional line)
+					(alternate "T1CH2_2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "PA2" (effects (font (size 1.27 1.27))))
+					(number "6" (effects (font (size 1.27 1.27))))
+					(alternate "A0" bidirectional line)
+					(alternate "AETR2_1" bidirectional line)
+					(alternate "OPP0" bidirectional line)
+					(alternate "OSCO" bidirectional line)
+					(alternate "TICH2N" bidirectional line)
+					(alternate "TICH2N_2" bidirectional line)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "VSS" (effects (font (size 1.27 1.27))))
+					(number "7" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "PD0" (effects (font (size 1.27 1.27))))
+					(number "8" (effects (font (size 1.27 1.27))))
+					(alternate "OPN1" bidirectional line)
+					(alternate "SDA_1" bidirectional line)
+					(alternate "TICH1N" bidirectional line)
+					(alternate "TICH1N_2" bidirectional line)
+					(alternate "UTX_1" bidirectional line)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VDD" (effects (font (size 1.27 1.27))))
+					(number "9" (effects (font (size 1.27 1.27))))
+				)
+				(pin bidirectional line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "PC0" (effects (font (size 1.27 1.27))))
+					(number "10" (effects (font (size 1.27 1.27))))
+					(alternate "NSS_1" bidirectional line)
+					(alternate "T1CH3_1" bidirectional line)
+					(alternate "T2CH3" bidirectional line)
+					(alternate "T2CH3_2" bidirectional line)
+					(alternate "UTX_3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "PC1" (effects (font (size 1.27 1.27))))
+					(number "11" (effects (font (size 1.27 1.27))))
+					(alternate "NSS" bidirectional line)
+					(alternate "SDA" bidirectional line)
+					(alternate "T1BKIN_1" bidirectional line)
+					(alternate "T1BKIN_3" bidirectional line)
+					(alternate "T2CH1ETR_2" bidirectional line)
+					(alternate "T2CH1ETR_3" bidirectional line)
+					(alternate "T2CH4_1" bidirectional line)
+					(alternate "URX_3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "PC2" (effects (font (size 1.27 1.27))))
+					(number "12" (effects (font (size 1.27 1.27))))
+					(alternate "AETR_1" bidirectional line)
+					(alternate "SCL" bidirectional line)
+					(alternate "T1BKIN" bidirectional line)
+					(alternate "T1BKIN_2" bidirectional line)
+					(alternate "T1ETR_3" bidirectional line)
+					(alternate "T2CH2_1" bidirectional line)
+					(alternate "URTS" bidirectional line)
+					(alternate "URTS_1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "PC3" (effects (font (size 1.27 1.27))))
+					(number "13" (effects (font (size 1.27 1.27))))
+					(alternate "T1CH1N_1" bidirectional line)
+					(alternate "T1CH1N_3" bidirectional line)
+					(alternate "T1CH3" bidirectional line)
+					(alternate "T1CH3_2" bidirectional line)
+					(alternate "UCTS_1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "PC4" (effects (font (size 1.27 1.27))))
+					(number "14" (effects (font (size 1.27 1.27))))
+					(alternate "A2" bidirectional line)
+					(alternate "MCO" bidirectional line)
+					(alternate "T1CH1_3" bidirectional line)
+					(alternate "T1CH2N_1" bidirectional line)
+					(alternate "T1CH4" bidirectional line)
+					(alternate "T1CH4_2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "PC5" (effects (font (size 1.27 1.27))))
+					(number "15" (effects (font (size 1.27 1.27))))
+					(alternate "SCK" bidirectional line)
+					(alternate "SCK_1" bidirectional line)
+					(alternate "SCL_2" bidirectional line)
+					(alternate "SCL_3" bidirectional line)
+					(alternate "T1CH3_3" bidirectional line)
+					(alternate "T1ETR" bidirectional line)
+					(alternate "T1ETR_1" bidirectional line)
+					(alternate "T2CH1ETR_1" bidirectional line)
+					(alternate "UCK_3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "PC6" (effects (font (size 1.27 1.27))))
+					(number "16" (effects (font (size 1.27 1.27))))
+					(alternate "MOSI" bidirectional line)
+					(alternate "MOSI_1" bidirectional line)
+					(alternate "SDA_2" bidirectional line)
+					(alternate "SDA_3" bidirectional line)
+					(alternate "T1CH1_1" bidirectional line)
+					(alternate "T1CH3N_3" bidirectional line)
+					(alternate "UCTS_2" bidirectional line)
+					(alternate "UCTS_3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "PC7" (effects (font (size 1.27 1.27))))
+					(number "17" (effects (font (size 1.27 1.27))))
+					(alternate "MISO" bidirectional line)
+					(alternate "MISO_1" bidirectional line)
+					(alternate "T1CH2_1" bidirectional line)
+					(alternate "T1CH2_3" bidirectional line)
+					(alternate "T2CH2_3" bidirectional line)
+					(alternate "URTS_2" bidirectional line)
+					(alternate "URTS_3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "PD1" (effects (font (size 1.27 1.27))))
+					(number "18" (effects (font (size 1.27 1.27))))
+					(alternate "AETR2" bidirectional line)
+					(alternate "SCL_1" bidirectional line)
+					(alternate "SWIO" bidirectional line)
+					(alternate "T1CH3N" bidirectional line)
+					(alternate "T1CH3N_1" bidirectional line)
+					(alternate "T1CH3N_2" bidirectional line)
+					(alternate "URX_1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "PD2" (effects (font (size 1.27 1.27))))
+					(number "19" (effects (font (size 1.27 1.27))))
+					(alternate "A3" bidirectional line)
+					(alternate "T1CH1" bidirectional line)
+					(alternate "T1CH1_2" bidirectional line)
+					(alternate "T1CH2N_3" bidirectional line)
+					(alternate "T2CH3_1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "PD3" (effects (font (size 1.27 1.27))))
+					(number "20" (effects (font (size 1.27 1.27))))
+					(alternate "A4" bidirectional line)
+					(alternate "AETR" bidirectional line)
+					(alternate "T1CH4_1" bidirectional line)
+					(alternate "T2CH2" bidirectional line)
+					(alternate "T2CH2_2" bidirectional line)
+					(alternate "UCTS" bidirectional line)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers (hide yes))
+			(pin_names (offset 1.016) (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 1.27)
+						(xy 0 3.048)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27)
+						(xy -2.54 1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names (offset 1.016) (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke (width 0.1524) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke (width 0.1524) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke (width 0.1524) (type default))
+					(fill (type none))
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3" (effects (font (size 1.27 1.27))))
+					(number "3" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names (offset 0.254))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify right bottom))
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left top))
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)) (justify left top))
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)) (justify left top))
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects (font (size 0.762 0.762)))
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54)
+						(xy 1.778 -2.54)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556)
+						(xy 1.778 -3.556)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524)
+						(xy 1.27 -2.54)
+						(xy 1.27 -2.032)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54)
+						(xy 1.27 -3.556)
+						(xy 1.27 -3.048)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016)
+						(xy 3.683 -3.556)
+						(xy 3.683 -4.064)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524)
+						(xy 2.667 -1.524)
+						(xy 3.683 -3.556)
+						(xy 4.699 -1.524)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556)
+						(xy 2.667 -3.556)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN" (effects (font (size 1.27 1.27))))
+					(number "3" (effects (font (size 1.27 1.27))))
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD" (effects (font (size 1.27 1.27))))
+					(number "4" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 13.97 20.32)
+		(end 93.98 81.28)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "c826c9ba-a7d0-5dc1-8e74-0982bdcf56d6")
+	)
+	(text "USB-C 5 V in"
+		(exclude_from_sim no)
+		(at 13.97 19.05 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "f43759d6-6930-5bc2-813c-d117464f1ea3")
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 27.94 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb1f199e-9ad1-563d-9427-f615cd458031")
+		(property "Reference" "J1"
+			(at 27.94 26.035 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "USB-C"
+			(at 27.94 28.575 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 31.75 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 31.75 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 27.94 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 27.94 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C165948"
+			(at 27.94 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "A1"
+			(uuid "38bdf741-6c7e-5e38-8523-afca14b2888c")
+		)
+		(pin "A4"
+			(uuid "3022f375-ca3b-573b-b367-987a9bffc4e0")
+		)
+		(pin "A5"
+			(uuid "9b282662-21c6-566b-9664-303b4c0147d5")
+		)
+		(pin "A6"
+			(uuid "054ee74c-33e9-5c75-a855-3837c05f45f9")
+		)
+		(pin "A7"
+			(uuid "e25b388f-689d-5978-9f05-1e53275f8b53")
+		)
+		(pin "A8"
+			(uuid "e8ca275c-c356-5946-8287-f66c97597b4f")
+		)
+		(pin "A9"
+			(uuid "5bc0049f-b396-580d-b368-1fcaed33f71c")
+		)
+		(pin "A12"
+			(uuid "2b5970e2-cfcd-510d-952f-b9a6168f2bb7")
+		)
+		(pin "B1"
+			(uuid "de6bee68-7f6c-5a62-9a59-fd82f7902de9")
+		)
+		(pin "B4"
+			(uuid "10fbaa2c-fb2a-5f76-b5c4-103ea3d2a8ac")
+		)
+		(pin "B5"
+			(uuid "6b771d6a-55d8-5c38-aa6c-18a4b6b85c85")
+		)
+		(pin "B6"
+			(uuid "3434133d-a6c1-57bb-ab1a-882434c75d22")
+		)
+		(pin "B7"
+			(uuid "a9122bd0-1038-5843-b2b6-c0ce6ba034cc")
+		)
+		(pin "B8"
+			(uuid "573e21b4-03be-5e1b-a2ac-4d7f04d1a529")
+		)
+		(pin "B9"
+			(uuid "38aed8d5-18c4-5006-9ab5-890b2c2a7e3a")
+		)
+		(pin "B12"
+			(uuid "c1db6462-a092-5c9c-85bc-d80c98a506de")
+		)
+		(pin "SH"
+			(uuid "883b87a5-7838-504d-b62f-53fb2901f279")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 27.94 71.12)
+			(xy 27.94 73.66)
+		)
+		(stroke (width 0) (type default))
+		(uuid "717d6b60-73bc-5378-bdb2-36064550a1bf")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06218300-eff1-5af9-8c08-d1b20f9774b8")
+		(property "Reference" "#PWR001"
+			(at 27.94 80.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 27.94 77.47 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 27.94 73.66 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 27.94 73.66 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 73.66 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "f738b233-5470-5bef-adc1-ea36ba36a833")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 33.02)
+			(xy 45.72 33.02)
+		)
+		(stroke (width 0) (type default))
+		(uuid "ab3fa935-f3a0-58d7-8992-4f1863334c7d")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 45.72 33.02 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "9d68d8c1-4621-51d0-aa49-2ab44f39ee65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1)
+			(xy 45.72 38.1)
+		)
+		(stroke (width 0) (type default))
+		(uuid "93632339-d471-5c8a-a3fd-1f87cf36681c")
+	)
+	(global_label "J1_CC1"
+		(shape passive)
+		(at 45.72 38.1 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "4a895274-b81f-5d60-a351-2b49d66da044")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 38.1 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 50.8)
+			(xy 45.72 50.8)
+		)
+		(stroke (width 0) (type default))
+		(uuid "c7e85eee-7130-5c95-9b73-c5770277ed7e")
+	)
+	(global_label "J1_USB_DP"
+		(shape passive)
+		(at 45.72 50.8 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "5fb40166-092d-5ff4-bb2c-804b047e7ee9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 45.72)
+			(xy 45.72 45.72)
+		)
+		(stroke (width 0) (type default))
+		(uuid "95f3c11c-7d56-53eb-8211-3389507521ef")
+	)
+	(global_label "J1_USB_DM"
+		(shape passive)
+		(at 45.72 45.72 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "36ad3709-21b4-5ec3-87a2-cc052efc061d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 45.72 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(no_connect
+		(at 43.18 60.96)
+		(uuid "aa6ae75c-874e-5bce-83f1-0a65852e79cb")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64)
+			(xy 45.72 40.64)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e8d117ba-e3df-5256-9921-881d72088ca7")
+	)
+	(global_label "J1_CC2"
+		(shape passive)
+		(at 45.72 40.64 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "fb327a30-5725-5c4a-acd8-4ecd5f85ae2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 53.34)
+			(xy 45.72 53.34)
+		)
+		(stroke (width 0) (type default))
+		(uuid "0faaf808-db9f-5fa5-906e-7b1cb7b770ce")
+	)
+	(global_label "J1_USB_DP"
+		(shape passive)
+		(at 45.72 53.34 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "a48402f9-96ea-551d-8800-50a37be3d146")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 53.34 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 48.26)
+			(xy 45.72 48.26)
+		)
+		(stroke (width 0) (type default))
+		(uuid "dca12c44-581f-5276-a1c9-ce76139c7a36")
+	)
+	(global_label "J1_USB_DM"
+		(shape passive)
+		(at 45.72 48.26 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "fcf65094-5a9f-5e97-a402-42c2bab654e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(no_connect
+		(at 43.18 63.5)
+		(uuid "2037a160-ded9-5ba4-bffc-60841588e165")
+	)
+	(wire
+		(pts
+			(xy 20.32 71.12)
+			(xy 20.32 73.66)
+		)
+		(stroke (width 0) (type default))
+		(uuid "65efd57d-51db-544f-9111-b879afccd646")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c45ff24-494c-5fcd-a9a9-1a045dcb97f4")
+		(property "Reference" "#PWR002"
+			(at 20.32 80.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 20.32 77.47 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 20.32 73.66 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 20.32 73.66 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 73.66 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "e57c79fe-ddae-571b-90c0-d2a339fbce72")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7535384d-c0e0-502e-8864-79745446ee4c")
+		(property "Reference" "C1"
+			(at 67.31 34.29 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "10uF"
+			(at 67.31 39.37 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 67.0052 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 66.04 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 66.04 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C15850"
+			(at 66.04 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "2e07477b-0586-5c13-9b9b-2376ca750acc")
+		)
+		(pin "2"
+			(uuid "b60695de-eee8-50b6-b804-f6d1fc8c875f")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 66.04 33.02)
+			(xy 66.04 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7d73bebe-620a-5416-8249-dc48f43bf5e1")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 66.04 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "d3c46134-304d-5c81-9a8f-8ce8d2cb4de9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 66.04 40.64)
+			(xy 66.04 43.18)
+		)
+		(stroke (width 0) (type default))
+		(uuid "16a3e315-1747-5592-8cae-4a8c71f5f334")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd61b68f-b939-5880-96e8-c62a5036dd4f")
+		(property "Reference" "#PWR003"
+			(at 66.04 49.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 66.04 46.99 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 66.04 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 66.04 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "bc075055-bbac-58d8-be07-2a148845d58b")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ca1b57d-c0c2-52d7-beb9-be7ed1af87df")
+		(property "Reference" "R1"
+			(at 81.28 41.91 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "5.1k"
+			(at 78.74 41.91 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 76.962 41.91 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 78.74 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 78.74 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 78.74 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25905"
+			(at 78.74 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "f98ffa8f-db65-52fd-822a-b7deeb1effa2")
+		)
+		(pin "2"
+			(uuid "1408408c-9c8d-5c93-9a28-c3b8b241103b")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1)
+			(xy 78.74 35.56)
+		)
+		(stroke (width 0) (type default))
+		(uuid "28d0758f-97bd-5f53-a7d0-8a4dd316fed4")
+	)
+	(global_label "J1_CC1"
+		(shape passive)
+		(at 78.74 35.56 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "2b4a9739-30ab-5302-aa89-57e797d9e460")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 35.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72)
+			(xy 78.74 48.26)
+		)
+		(stroke (width 0) (type default))
+		(uuid "c1e7e119-aa10-51f8-b2d5-2ab7bbeb0dc5")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66cc7c52-1433-501c-8999-19364eead6b3")
+		(property "Reference" "#PWR004"
+			(at 78.74 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 78.74 52.07 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 78.74 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 78.74 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "de9bbe37-21bc-59ec-884c-b33788c548b1")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e84be461-a678-5b91-9977-ca465719e6fd")
+		(property "Reference" "R2"
+			(at 90.17 41.91 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "5.1k"
+			(at 87.63 41.91 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.852 41.91 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 87.63 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 87.63 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 87.63 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25905"
+			(at 87.63 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "1987e28c-f0bd-5b05-a1c8-79e70cc8c5f0")
+		)
+		(pin "2"
+			(uuid "578d81a2-046f-5c8a-9934-1d65ce6441d3")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 87.63 38.1)
+			(xy 87.63 35.56)
+		)
+		(stroke (width 0) (type default))
+		(uuid "caf8e8b7-e720-520b-aa1e-1d702e7cfa4d")
+	)
+	(global_label "J1_CC2"
+		(shape passive)
+		(at 87.63 35.56 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "a5cd0147-3194-5d9c-871c-63d350b1af46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 35.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72)
+			(xy 87.63 48.26)
+		)
+		(stroke (width 0) (type default))
+		(uuid "9c1b3462-dd75-50cc-a505-af846d514a0c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc6c68fa-dac2-550d-8109-aa47c7c52089")
+		(property "Reference" "#PWR005"
+			(at 87.63 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 87.63 52.07 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 87.63 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 87.63 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 48.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "29ea100c-8e5d-5c49-8af1-73a991c56c45")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 101.6 20.32)
+		(end 250.19 78.74)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "e10f6947-4a07-5a7c-b57b-74ee095ed237")
+	)
+	(text "CH32V003 LED controller"
+		(exclude_from_sim no)
+		(at 101.6 19.05 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "8a9724d1-8c50-52a5-ae07-d1dd062df649")
+	)
+	(symbol
+		(lib_id "MCU_WCH_RiscV:CH32V003FxPx")
+		(at 173.99 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "062a3c3b-e79b-5c8b-9e88-934339a9a004")
+		(property "Reference" "U1"
+			(at 166.37 33.02 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "CH32V003F4P6"
+			(at 181.61 33.02 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 172.72 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "https://www.wch-ic.com/products/CH32V003.html"
+			(at 172.72 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios."
+			(at 173.99 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CH32V003F4P6"
+			(at 173.99 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5187096"
+			(at 173.99 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "00e62ff3-eca7-5f3a-a67d-eb97df1c0d5f")
+		)
+		(pin "2"
+			(uuid "03e4fca9-6b0e-59c7-925a-dc568c4dea30")
+		)
+		(pin "3"
+			(uuid "5602b75e-dcf6-50c9-b64e-b219dd5844f6")
+		)
+		(pin "4"
+			(uuid "8c9e5715-709e-5eed-9af5-083ffd50cb56")
+		)
+		(pin "5"
+			(uuid "2a549431-7685-5e70-86ec-a4b54e53dac4")
+		)
+		(pin "6"
+			(uuid "53e8e596-fd8c-5d3b-987f-91b001473130")
+		)
+		(pin "7"
+			(uuid "f8db4b82-1155-50e5-8a71-77c4da697dde")
+		)
+		(pin "8"
+			(uuid "0d483305-fc07-5692-9a50-53c345a61e3d")
+		)
+		(pin "9"
+			(uuid "f68a9251-d2f6-595c-aa1e-37630d2c6d6d")
+		)
+		(pin "10"
+			(uuid "7b9111d3-9953-5344-9561-066f8d51f077")
+		)
+		(pin "11"
+			(uuid "153446f7-8ffc-5396-902a-58435d27c469")
+		)
+		(pin "12"
+			(uuid "52fbf259-728d-54db-b687-012aac950d37")
+		)
+		(pin "13"
+			(uuid "a6ff2893-5265-5ae5-9b53-6aba34ea1eb4")
+		)
+		(pin "14"
+			(uuid "2318cf74-40b9-5361-b879-4628a1276d96")
+		)
+		(pin "15"
+			(uuid "2e3fc9ef-ae7f-58aa-bc3e-69d63c39bfdb")
+		)
+		(pin "16"
+			(uuid "0f214fcd-9488-5f8b-b01c-266efb5ff7ab")
+		)
+		(pin "17"
+			(uuid "b8fd59d4-6df8-56d1-a474-c07b82b1afae")
+		)
+		(pin "18"
+			(uuid "aa879710-ad66-5d68-8c55-bc47ea640b8f")
+		)
+		(pin "19"
+			(uuid "717fd064-75a4-534b-b5b7-2b16a190904a")
+		)
+		(pin "20"
+			(uuid "599ba2ab-f6d1-5dfc-8935-9d666cd7953c")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 184.15 48.26)
+		(uuid "bc349eb4-7da0-57c4-8578-223ea4a3d6a6")
+	)
+	(no_connect
+		(at 184.15 50.8)
+		(uuid "b6c0c13e-e1bf-594c-95bf-8f036e928635")
+	)
+	(no_connect
+		(at 184.15 53.34)
+		(uuid "ee6a8a5e-fa6d-5ceb-8c56-ab496c820cf9")
+	)
+	(wire
+		(pts
+			(xy 184.15 55.88)
+			(xy 186.69 55.88)
+		)
+		(stroke (width 0) (type default))
+		(uuid "8bd5418c-dd7d-56c1-b8c5-86fe10d0a118")
+	)
+	(global_label "U1_NRST"
+		(shape passive)
+		(at 186.69 55.88 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "b0170d9a-266a-50f9-a44b-40b81b771cfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 55.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(no_connect
+		(at 184.15 60.96)
+		(uuid "6cdf4073-3e57-5adb-a9bc-8a29069d5079")
+	)
+	(no_connect
+		(at 184.15 63.5)
+		(uuid "4de0e14a-c9ce-5025-9226-7cf2a19d03c6")
+	)
+	(wire
+		(pts
+			(xy 173.99 68.58)
+			(xy 173.99 71.12)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7b6201ed-4f5f-50a4-9f1e-35ee493d4855")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0d5181-b469-5bf3-b2e9-8d72d5eb3585")
+		(property "Reference" "#PWR006"
+			(at 173.99 77.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 173.99 74.93 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 173.99 71.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 173.99 71.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 71.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "802cea7d-3b30-52f7-bfab-d2ec5b9508aa")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 184.15 38.1)
+		(uuid "be4a9a7d-b0c6-58cc-8c66-fca132420fd1")
+	)
+	(wire
+		(pts
+			(xy 173.99 33.02)
+			(xy 173.99 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "57410a36-781e-5912-b5d3-9d5a800aa237")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 173.99 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "fdfea594-0e9e-510a-ae2f-4680b9bba764")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1)
+			(xy 161.29 38.1)
+		)
+		(stroke (width 0) (type default))
+		(uuid "27a8864b-1f06-5692-88f6-aae75256dd22")
+	)
+	(global_label "U1_BTN"
+		(shape passive)
+		(at 161.29 38.1 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "5019fa74-0196-5238-a788-11ddc88483be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 38.1 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(no_connect
+		(at 163.83 40.64)
+		(uuid "c7df7a23-c4ee-5e65-882f-04d28f5359b8")
+	)
+	(no_connect
+		(at 163.83 43.18)
+		(uuid "f1d03439-0186-5d22-9a4f-9dfea684c109")
+	)
+	(no_connect
+		(at 163.83 45.72)
+		(uuid "46a619ac-ba45-5abc-aa25-fce076764820")
+	)
+	(no_connect
+		(at 163.83 48.26)
+		(uuid "d482a9ec-7e32-5bdc-abf0-d393ee74ea40")
+	)
+	(no_connect
+		(at 163.83 50.8)
+		(uuid "3d40e0f2-7e37-5a65-9ddf-eb0a0a8ba1bb")
+	)
+	(wire
+		(pts
+			(xy 163.83 53.34)
+			(xy 161.29 53.34)
+		)
+		(stroke (width 0) (type default))
+		(uuid "94dc508c-e2e4-56e1-a25b-3d1229e8fd36")
+	)
+	(global_label "U1_MCU_DATA"
+		(shape passive)
+		(at 161.29 53.34 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "fb290444-7ec8-5cf5-8cbc-652509aecdca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 53.34 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(no_connect
+		(at 163.83 55.88)
+		(uuid "b19075f6-cd75-5713-b466-1c949310183e")
+	)
+	(wire
+		(pts
+			(xy 184.15 40.64)
+			(xy 186.69 40.64)
+		)
+		(stroke (width 0) (type default))
+		(uuid "34c0fb1d-85f3-524a-b01f-90f27fe3af64")
+	)
+	(global_label "U1_SWIO"
+		(shape passive)
+		(at 186.69 40.64 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "3685301d-fa5b-5210-a00d-99eff321a29f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(no_connect
+		(at 184.15 43.18)
+		(uuid "ba6a0825-7726-52de-86ff-7ed628ecf971")
+	)
+	(no_connect
+		(at 184.15 45.72)
+		(uuid "3f8a2216-4306-57b1-8653-a900ed24e4cc")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99c99ac-c9a7-5a9c-b6a4-4a9d582322a8")
+		(property "Reference" "SW1"
+			(at 139.7 44.45 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "MODE"
+			(at 135.89 43.18 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 142.24 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 142.24 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 137.16 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C318884"
+			(at 137.16 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "415ca32e-d0de-5e96-ad70-b452795ba98a")
+		)
+		(pin "2"
+			(uuid "1b98138e-fc55-5a6a-a2a5-a0cba4975663")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1)
+			(xy 137.16 35.56)
+		)
+		(stroke (width 0) (type default))
+		(uuid "978ba59a-b2dc-5644-84da-886bfbc42ed4")
+	)
+	(global_label "U1_BTN"
+		(shape passive)
+		(at 137.16 35.56 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "69c1af96-551f-5e33-b2ec-c18f2da938d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 35.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26)
+			(xy 137.16 50.8)
+		)
+		(stroke (width 0) (type default))
+		(uuid "39009ef6-854f-5148-9bbf-ad72b401b454")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "744bfea5-a540-5e19-8e6d-bbc03d26bcce")
+		(property "Reference" "#PWR007"
+			(at 137.16 57.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 137.16 54.61 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 137.16 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 137.16 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "1cf8bd42-1457-5ba0-80c0-5bbaaf74e473")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caba0b51-bf2c-588b-ad76-c9c9a39da8a9")
+		(property "Reference" "R3"
+			(at 116.84 62.992 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "33"
+			(at 116.84 60.96 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 59.182 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 116.84 60.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 116.84 60.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "0603WAF330JT5E"
+			(at 116.84 60.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C23140"
+			(at 116.84 60.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "966afbd4-f543-5934-b135-a43b4fa7db19")
+		)
+		(pin "2"
+			(uuid "3c410fc5-f1c2-5826-8776-b2bb60a43330")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96)
+			(xy 123.19 60.96)
+		)
+		(stroke (width 0) (type default))
+		(uuid "cbddf14b-19c3-562a-86b5-10203a612a95")
+	)
+	(global_label "U1_MCU_DATA"
+		(shape passive)
+		(at 123.19 60.96 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "d96b631f-7dfb-5dee-9826-b39911739b99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 60.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96)
+			(xy 110.49 60.96)
+		)
+		(stroke (width 0) (type default))
+		(uuid "70a8a658-68b3-52f0-890c-b5a594b82987")
+	)
+	(global_label "D1"
+		(shape passive)
+		(at 110.49 60.96 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "083b816c-06e5-59dc-bb1f-9702533d1f6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 60.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "274fd770-3fe9-5811-bfde-2a38296879be")
+		(property "Reference" "C2"
+			(at 205.74 34.29 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "10uF"
+			(at 205.74 39.37 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 205.4352 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 204.47 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 204.47 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C15850"
+			(at 204.47 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "f0316b6f-f92f-5094-9cd7-a8b5573f92d9")
+		)
+		(pin "2"
+			(uuid "64ebe815-4633-5bf6-8037-c6352127e3d4")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 204.47 33.02)
+			(xy 204.47 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "fe602229-5c67-5d57-b7c0-3a2d85c1a15a")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 204.47 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "7aa79efb-af8f-5703-810a-941a323ee4d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64)
+			(xy 204.47 43.18)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e078559f-9a36-5bc1-bf52-e66964bded49")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "724e6f3c-a7c3-507a-8be1-cdee797f6542")
+		(property "Reference" "#PWR008"
+			(at 204.47 49.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 204.47 46.99 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 204.47 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 204.47 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "f42cfc03-b45f-51c6-b04a-cfceb5309dc3")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405bfafd-de55-5c4b-8605-4f0c5eea51da")
+		(property "Reference" "C3"
+			(at 205.74 60.96 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 205.74 66.04 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 205.4352 67.31 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 204.47 63.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 63.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 204.47 63.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 204.47 63.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "8b2432d8-e938-52e6-a248-afdadada082f")
+		)
+		(pin "2"
+			(uuid "79a14c35-2a05-5340-88af-fca0aa8ec209")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 204.47 59.69)
+			(xy 204.47 57.15)
+		)
+		(stroke (width 0) (type default))
+		(uuid "ce68900a-2b0d-5ce4-a1cf-a0b077772061")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 204.47 57.15 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "94e82c96-826d-5d76-b90b-3ccb6b27a2b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 57.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 204.47 67.31)
+			(xy 204.47 69.85)
+		)
+		(stroke (width 0) (type default))
+		(uuid "8ee4712b-4fa2-5e17-b687-441bb666620e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd3662fd-aa2b-5240-84c6-8f756b3984dd")
+		(property "Reference" "#PWR009"
+			(at 204.47 76.2 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 204.47 73.66 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 204.47 69.85 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 204.47 69.85 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 69.85 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "1c88e12c-46bc-577f-b532-4c2e0aeb3c06")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ef5f92-679d-5980-9d51-728ca13fe612")
+		(property "Reference" "R4"
+			(at 228.6 30.988 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10k"
+			(at 228.6 33.02 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 34.798 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 228.6 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 228.6 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 228.6 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25804"
+			(at 228.6 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "90f9fa8f-66ba-5c98-8cbe-054d7f318b60")
+		)
+		(pin "2"
+			(uuid "5979bc16-fa4f-5be3-ad63-36237662830f")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 224.79 33.02)
+			(xy 222.25 33.02)
+		)
+		(stroke (width 0) (type default))
+		(uuid "de276530-feb0-5689-b450-db7f7e9399ea")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 222.25 33.02 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "e16d7901-63c7-53c5-a64c-dc9e977d9846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 33.02)
+			(xy 234.95 33.02)
+		)
+		(stroke (width 0) (type default))
+		(uuid "b3aa761a-2283-51ac-8db9-1d1ef61cc14f")
+	)
+	(global_label "U1_NRST"
+		(shape passive)
+		(at 234.95 33.02 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "306c9ba1-f224-5da7-abf2-0edf4885824d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 33.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 236.22 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc5726a-2c48-5616-9d4f-d6af51834af0")
+		(property "Reference" "J2"
+			(at 236.22 39.37 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SWIO"
+			(at 236.22 49.53 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 236.22 44.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 236.22 44.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 44.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "PZ254V-11-03P"
+			(at 236.22 44.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2937625"
+			(at 236.22 44.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "1492cd4a-b59a-5e63-8049-82d4395556a0")
+		)
+		(pin "2"
+			(uuid "3eaa59a6-2026-51c5-b521-108dfe83c142")
+		)
+		(pin "3"
+			(uuid "4371f09e-d90d-5357-9dcf-83f8610edef1")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 231.14 41.91)
+			(xy 228.6 41.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "969f72d0-fd7d-580c-a363-5f4b32dd9e7e")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 228.6 41.91 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "873a6b03-8501-5f2c-9a9f-dd446782cd08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 41.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 231.14 44.45)
+			(xy 228.6 44.45)
+		)
+		(stroke (width 0) (type default))
+		(uuid "5fea092e-d5f5-5cb8-87ce-57c67d1eca2b")
+	)
+	(global_label "U1_SWIO"
+		(shape passive)
+		(at 228.6 44.45 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "fb165404-1a9e-5eeb-9ded-ddeba764a5a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 44.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 231.14 46.99)
+			(xy 228.6 46.99)
+		)
+		(stroke (width 0) (type default))
+		(uuid "46999c3c-2147-5206-bca3-492eb56856ad")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 228.6 46.99 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "2cca8af9-ea1e-541b-a2f3-67e4fdfe1c2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 46.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(rectangle
+		(start 257.81 20.32)
+		(end 314.96 58.42)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "ac5da8c7-cab9-5455-8869-9b8380499d39")
+	)
+	(text "LED 1"
+		(exclude_from_sim no)
+		(at 257.81 19.05 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "09ee7f70-cb4a-5514-8d31-5222799e3abc")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 276.86 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ef0a54a-7dea-5dd4-8987-69a7925233a4")
+		(property "Reference" "D1"
+			(at 281.94 34.925 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 278.13 46.355 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 278.13 48.26 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 279.4 50.165 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 276.86 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 276.86 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 276.86 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "435450e9-b8f1-5075-a20b-53344a80100c")
+		)
+		(pin "2"
+			(uuid "22b9481c-a27a-5fe5-bd1e-03d320f0fc44")
+		)
+		(pin "3"
+			(uuid "0cae7e53-6b7c-517a-91c9-a916a972a58b")
+		)
+		(pin "4"
+			(uuid "e284b384-818b-5ffa-8a57-afa868b4853f")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 284.48 40.64)
+			(xy 287.02 40.64)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e6ae0195-6f9c-5cc5-a2d9-fe75193c497c")
+	)
+	(global_label "D2"
+		(shape passive)
+		(at 287.02 40.64 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "adbe028a-184a-5ad2-8fb2-38f7527528a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.02 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 276.86 48.26)
+			(xy 276.86 50.8)
+		)
+		(stroke (width 0) (type default))
+		(uuid "c30f5567-a097-5f16-b697-3810637e98cf")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7af9ec-e95b-54ef-8ffe-a431fa0a9d30")
+		(property "Reference" "#PWR010"
+			(at 276.86 57.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 276.86 54.61 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 276.86 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 276.86 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "bab9fa28-7c9a-5688-83c2-c8eee1ded9ba")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 269.24 40.64)
+			(xy 266.7 40.64)
+		)
+		(stroke (width 0) (type default))
+		(uuid "514ec1d1-18fd-5ae3-97c0-1296a068240e")
+	)
+	(global_label "D1"
+		(shape passive)
+		(at 266.7 40.64 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "fbce51e3-8fe6-5c9e-8292-32cb63909c70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 276.86 33.02)
+			(xy 276.86 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "3399c701-a3c4-5965-89d7-e9943c217bf1")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 276.86 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "02a07c46-f6d0-5829-ba8b-eb411e264114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.86 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 304.8 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "901949eb-e342-5304-a8e2-a05d08277944")
+		(property "Reference" "C4"
+			(at 304.8 34.29 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 304.8 39.37 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 305.7652 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 304.8 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 304.8 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 304.8 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 304.8 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "bd7e0b83-3b6f-558f-947c-e5bfca313486")
+		)
+		(pin "2"
+			(uuid "6f23291f-b451-5710-bbfb-03fed7b49539")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 304.8 33.02)
+			(xy 304.8 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "0fb3bccb-3799-5549-ace5-c32c8b00d460")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 304.8 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "2fae8d3d-05a4-5cda-862b-cb2bfa108ac8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 304.8 40.64)
+			(xy 304.8 43.18)
+		)
+		(stroke (width 0) (type default))
+		(uuid "a0fa68e5-002e-55a6-9d2c-46c93b94c8fe")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758c8d45-6e2b-5da8-bba3-ff9c83893f62")
+		(property "Reference" "#PWR011"
+			(at 304.8 49.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 304.8 46.99 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 304.8 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 304.8 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "0e7aff84-51d6-5474-9b70-13acb90dd410")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 323.85 20.32)
+		(end 381 58.42)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "2c087525-5e4a-5abc-bd85-bf8f15c11ab4")
+	)
+	(text "LED 2"
+		(exclude_from_sim no)
+		(at 323.85 19.05 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "fd5ebda3-81d5-515f-9d1c-21087297b3e2")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 342.9 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53448b4a-76b1-5eee-8f83-1dcab65c540c")
+		(property "Reference" "D2"
+			(at 347.98 34.925 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 344.17 46.355 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 344.17 48.26 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 345.44 50.165 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 342.9 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 342.9 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 342.9 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "5f9d6538-0365-5be2-a959-3ae0e2cec808")
+		)
+		(pin "2"
+			(uuid "03a0f1be-7f55-5cbf-abca-49f90adee13a")
+		)
+		(pin "3"
+			(uuid "d0b437ad-0ca4-53ae-b7c6-8e78e67d0163")
+		)
+		(pin "4"
+			(uuid "0714d79c-3b59-52f7-abd1-9c621e741ba2")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 350.52 40.64)
+			(xy 353.06 40.64)
+		)
+		(stroke (width 0) (type default))
+		(uuid "f6ca7d27-f3f0-544d-a1b9-13005f1a837f")
+	)
+	(global_label "D3"
+		(shape passive)
+		(at 353.06 40.64 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "8b47c272-b453-51fe-a2c7-ac175b889dc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.06 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 342.9 48.26)
+			(xy 342.9 50.8)
+		)
+		(stroke (width 0) (type default))
+		(uuid "f0ab0dd6-e247-5164-93c4-39a625b7d7db")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4364fa25-bad8-5d3f-ad98-d750db261ba3")
+		(property "Reference" "#PWR012"
+			(at 342.9 57.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 342.9 54.61 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 342.9 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 342.9 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 342.9 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "daef2944-3b43-572b-bd11-e4067e7fe7bd")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 335.28 40.64)
+			(xy 332.74 40.64)
+		)
+		(stroke (width 0) (type default))
+		(uuid "485402be-059b-55d0-a2ae-2c2d4b135482")
+	)
+	(global_label "D2"
+		(shape passive)
+		(at 332.74 40.64 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "40275d8a-cf20-51f7-840f-8d6f9d96c025")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 342.9 33.02)
+			(xy 342.9 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "0dc83c4b-0542-5d04-bf67-1b86af09d36b")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 342.9 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "8fbaaa1b-6f61-5131-8aa8-9446199f38a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.9 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 370.84 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f04d59e1-4834-5aef-a9c3-3a542ae474d0")
+		(property "Reference" "C5"
+			(at 370.84 34.29 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 370.84 39.37 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 371.8052 40.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 370.84 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 370.84 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 370.84 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 370.84 36.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "bc2fd4c6-6442-5980-a788-316af7d18c55")
+		)
+		(pin "2"
+			(uuid "4bf0467d-ed94-57a5-97ee-7f20414d3f88")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 370.84 33.02)
+			(xy 370.84 30.48)
+		)
+		(stroke (width 0) (type default))
+		(uuid "992be6fa-9f14-5af7-96e2-4749637ca6a4")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 370.84 30.48 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "bf98acf7-5f7e-509a-9334-a784d02009ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.84 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 370.84 40.64)
+			(xy 370.84 43.18)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7c16aff1-abfd-5a48-988f-cc69d4fec09b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 370.84 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a078daea-aa1e-51d3-8846-32aca03afbcc")
+		(property "Reference" "#PWR013"
+			(at 370.84 49.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 370.84 46.99 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 370.84 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 370.84 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 370.84 43.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "dbc8ad0e-2c07-500f-9d9c-40f8ea7e90b2")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 13.97 95.25)
+		(end 71.12 133.35)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "c9d870bf-6c06-5ff9-98bc-f36d5077b1f3")
+	)
+	(text "LED 3"
+		(exclude_from_sim no)
+		(at 13.97 93.98 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "136faa08-f4de-5177-b56a-2015a3310a97")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 33.02 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae96c0d-ce3f-5f15-8573-fa9dfa042ef5")
+		(property "Reference" "D3"
+			(at 38.1 109.855 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 34.29 121.285 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 34.29 123.19 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 35.56 125.095 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 33.02 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 33.02 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 33.02 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "3427aca5-b69e-5923-b631-9831ef21c9b0")
+		)
+		(pin "2"
+			(uuid "ceb18680-2f45-5763-b3e3-9f86035f6d40")
+		)
+		(pin "3"
+			(uuid "29058fa1-1ac7-56aa-9d41-ae381fb43ca9")
+		)
+		(pin "4"
+			(uuid "ed80e497-1a32-5e10-bb67-763a4acec8a3")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40.64 115.57)
+			(xy 43.18 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "74a78c21-ae09-5839-a9b8-6c479dc60e73")
+	)
+	(global_label "D4"
+		(shape passive)
+		(at 43.18 115.57 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "8a0ee3f8-003f-55fa-8dac-c7dbd4bcde1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 123.19)
+			(xy 33.02 125.73)
+		)
+		(stroke (width 0) (type default))
+		(uuid "67a4b534-1b0b-5fde-8f3a-433b70c854ea")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d92a64b-7569-5184-b859-b098786608fe")
+		(property "Reference" "#PWR014"
+			(at 33.02 132.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 33.02 129.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 33.02 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 33.02 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "3acf6462-38c6-553f-9908-68b9c60fef4b")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 25.4 115.57)
+			(xy 22.86 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "0bae3681-fc0b-5768-ab71-ec87cb19a812")
+	)
+	(global_label "D3"
+		(shape passive)
+		(at 22.86 115.57 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "0404046a-4313-5122-84ff-4191dc5c3660")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 107.95)
+			(xy 33.02 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "b3c9beaa-729d-5763-809b-11e78268278d")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 33.02 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "53a57cf2-c553-57fa-8a18-0e67b8e9e3eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66cd371e-cd29-53f2-a0e0-69f0e95cd39b")
+		(property "Reference" "C6"
+			(at 60.96 109.22 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 60.96 114.3 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.9252 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 60.96 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 60.96 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 60.96 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "f8f98d71-9953-5199-b963-5aa9b3c50d4e")
+		)
+		(pin "2"
+			(uuid "b0df18dc-3d3c-5e8b-9790-a44a4c97cc46")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 60.96 107.95)
+			(xy 60.96 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "bda181c3-7673-5482-8462-155010a7b7f7")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 60.96 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "1af66677-a9d7-5460-ad7b-6cfd69d3142e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 60.96 115.57)
+			(xy 60.96 118.11)
+		)
+		(stroke (width 0) (type default))
+		(uuid "484c87bf-37d6-586a-a6c5-270870e1eda5")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b6968ec-74cc-5b80-9069-a13281cad28a")
+		(property "Reference" "#PWR015"
+			(at 60.96 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 60.96 121.92 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 60.96 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 60.96 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "52521ffe-fed0-566b-a81d-9272b69b4fd5")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 80.01 95.25)
+		(end 137.16 133.35)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "188f7a2e-a2f3-5d03-8e78-e28a440c3838")
+	)
+	(text "LED 4"
+		(exclude_from_sim no)
+		(at 80.01 93.98 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "e176b28d-784f-5a3c-96cc-8e15b395a90b")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 99.06 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "046d94a6-ccc1-511a-8073-c1596eaa4bd3")
+		(property "Reference" "D4"
+			(at 104.14 109.855 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 100.33 121.285 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 100.33 123.19 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 101.6 125.095 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 99.06 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 99.06 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 99.06 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "8d12955c-c81f-57a4-b656-ff6cfc5e184c")
+		)
+		(pin "2"
+			(uuid "bfd82c9b-174c-587d-8ee1-183f4dd50bba")
+		)
+		(pin "3"
+			(uuid "a7ff59b2-7a62-5a00-979f-30306f7905cb")
+		)
+		(pin "4"
+			(uuid "242f9ba7-beb9-5798-b7ce-439deb5670e5")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 106.68 115.57)
+			(xy 109.22 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "87964299-0a23-55e8-9835-3b3c562d963b")
+	)
+	(global_label "D5"
+		(shape passive)
+		(at 109.22 115.57 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "f603c82b-62bf-5104-99e6-61c520af74de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 99.06 123.19)
+			(xy 99.06 125.73)
+		)
+		(stroke (width 0) (type default))
+		(uuid "f80c3296-512c-5510-8c1d-a19c2ac72685")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9124b82d-955b-558a-a844-08df84cfee5f")
+		(property "Reference" "#PWR016"
+			(at 99.06 132.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 99.06 129.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 99.06 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 99.06 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "b1e09d41-f686-57c9-a24c-523b32a404cf")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57)
+			(xy 88.9 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "fcfc7590-3055-5638-a759-467d9dc400b4")
+	)
+	(global_label "D4"
+		(shape passive)
+		(at 88.9 115.57 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "545f2bf8-f865-5f64-9951-de061ba225e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95)
+			(xy 99.06 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "532ac490-1c77-5880-b56e-25a602900be4")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 99.06 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "613870bc-f8d3-5247-8a28-394813bb7212")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce21aef6-1b39-5a6d-a19e-50634923cf0a")
+		(property "Reference" "C7"
+			(at 127 109.22 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 127 114.3 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127.9652 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 127 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 127 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 127 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "671b3428-8d5f-5545-b127-316a89d19f06")
+		)
+		(pin "2"
+			(uuid "47e5bda4-a3ca-5b79-9b59-e9bb96b883a6")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 127 107.95)
+			(xy 127 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "b6d6117e-d383-5359-9037-88035d41be7c")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 127 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "bd9f09b0-3f7a-53b1-ab77-25e0ed31318e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 127 115.57)
+			(xy 127 118.11)
+		)
+		(stroke (width 0) (type default))
+		(uuid "dba6513b-de76-5e3c-8d64-212fbcbafccf")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "299b1380-aaa0-5e51-9042-380851b67f50")
+		(property "Reference" "#PWR017"
+			(at 127 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 127 121.92 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 127 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 127 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "2ae14aba-0383-5f05-bc16-f75ddc512215")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 144.78 95.25)
+		(end 201.93 133.35)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "82eb6327-9631-58b8-9eed-057d66491929")
+	)
+	(text "LED 5"
+		(exclude_from_sim no)
+		(at 144.78 93.98 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "f84df62b-225e-5c6d-a14f-33bebe3880ca")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 163.83 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6339df-36c0-5e49-bdb6-bcaaa793241b")
+		(property "Reference" "D5"
+			(at 168.91 109.855 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 165.1 121.285 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 165.1 123.19 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 166.37 125.095 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 163.83 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 163.83 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 163.83 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "a5d692fe-cbc3-5025-8f71-da781d78e784")
+		)
+		(pin "2"
+			(uuid "7b509599-e3b0-5873-afb4-98ac1c58620e")
+		)
+		(pin "3"
+			(uuid "dbde02c9-5cf6-52d7-8a33-6a5218bfb665")
+		)
+		(pin "4"
+			(uuid "56352f56-2153-54ce-9189-e9a7b363bc54")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 171.45 115.57)
+			(xy 173.99 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "37f6e614-dec8-5734-b829-49609911ec00")
+	)
+	(global_label "D6"
+		(shape passive)
+		(at 173.99 115.57 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "dc9312a0-5134-5133-a67d-352003b95b63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 163.83 123.19)
+			(xy 163.83 125.73)
+		)
+		(stroke (width 0) (type default))
+		(uuid "feaffc86-d1e4-57b2-90b3-d236e8e16071")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49599601-93e5-56dd-92c3-88964a0034f8")
+		(property "Reference" "#PWR018"
+			(at 163.83 132.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 163.83 129.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 163.83 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 163.83 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "73369776-d152-5d9f-96c9-a654690eba53")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57)
+			(xy 153.67 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "58487414-ff3b-572c-9719-83cf9950328f")
+	)
+	(global_label "D5"
+		(shape passive)
+		(at 153.67 115.57 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "f440a67f-36f1-5af5-9fda-ee86471c167b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 163.83 107.95)
+			(xy 163.83 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7190690b-e917-5af6-9fd7-7bca53452486")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 163.83 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "60b7bb81-0eda-5d90-bbd3-f4f656f86361")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c542e621-c56b-53fa-b2cf-d5ac0f7fa6f1")
+		(property "Reference" "C8"
+			(at 193.04 109.22 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 193.04 114.3 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 192.7352 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 191.77 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 191.77 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 191.77 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "bf3db4b6-0599-5909-b75f-4e95447e518a")
+		)
+		(pin "2"
+			(uuid "21f7c4d4-1d1c-5136-8dd9-5fc435b865dd")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 191.77 107.95)
+			(xy 191.77 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "4ef01e46-1cea-560d-ac99-7c913fc7c7a1")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 191.77 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "75d782fe-a1c0-590b-816d-6d2bba4fae09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57)
+			(xy 191.77 118.11)
+		)
+		(stroke (width 0) (type default))
+		(uuid "35200feb-7747-5afc-b4d9-a2a183af2dae")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b59ae91-70f3-5092-8497-e79366780501")
+		(property "Reference" "#PWR019"
+			(at 191.77 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 191.77 121.92 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 191.77 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 191.77 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "7a852ac9-a195-5d22-be06-68fee645b885")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 210.82 95.25)
+		(end 267.97 133.35)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "c3965460-2e47-5afb-ab62-35a25bdd7330")
+	)
+	(text "LED 6"
+		(exclude_from_sim no)
+		(at 210.82 93.98 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "361f47ac-5268-56c0-b0a1-fb5cbb986d88")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 229.87 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28fe1330-64ab-58ef-93ad-28ea3dbfe7fb")
+		(property "Reference" "D6"
+			(at 234.95 109.855 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 231.14 121.285 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 231.14 123.19 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 232.41 125.095 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 229.87 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 229.87 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 229.87 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "8f023aba-d77e-5c30-9483-43c05211a3b4")
+		)
+		(pin "2"
+			(uuid "cddcef1f-c4ba-5c2c-9e3b-2d5ec5a80f22")
+		)
+		(pin "3"
+			(uuid "6d34d54b-c568-5a70-b13b-70a3bf97f9a1")
+		)
+		(pin "4"
+			(uuid "25dda783-9640-5693-88a8-175f771a7dce")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 237.49 115.57)
+			(xy 240.03 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "a749fa9c-5690-5f4d-bdb3-6d62cf94f632")
+	)
+	(global_label "D7"
+		(shape passive)
+		(at 240.03 115.57 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "7b830fc3-dbc5-575a-ad8e-2ddc80953542")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 229.87 123.19)
+			(xy 229.87 125.73)
+		)
+		(stroke (width 0) (type default))
+		(uuid "b10ae8dd-1514-5e36-8557-778db65552cd")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da15a81b-51be-5bf3-9818-3428d35903f0")
+		(property "Reference" "#PWR020"
+			(at 229.87 132.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 229.87 129.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 229.87 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 229.87 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "b023bbfb-645f-5825-a22d-f34091f59ef0")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 222.25 115.57)
+			(xy 219.71 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "bd78b797-842b-52a1-b025-20b3c5a6cb48")
+	)
+	(global_label "D6"
+		(shape passive)
+		(at 219.71 115.57 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "f3b774b1-4698-543a-86dd-0a0b0da2be71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 229.87 107.95)
+			(xy 229.87 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "40949f4b-35e4-5187-be78-d53d383823f0")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 229.87 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "497fcfd1-90f7-5472-ac87-ca61996ca6cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 257.81 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95220b02-f072-5d0a-b3f7-a5476c77d173")
+		(property "Reference" "C9"
+			(at 259.08 109.22 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 259.08 114.3 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 258.7752 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 257.81 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 257.81 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "cf64d3e8-b970-5025-9317-9e945dc593b1")
+		)
+		(pin "2"
+			(uuid "0b347c22-e9ff-52f7-9a16-282f6d9d4f28")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 257.81 107.95)
+			(xy 257.81 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "56d3d1dd-6017-570e-8e24-f6838017f818")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 257.81 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "6784610c-f4e6-5ccd-8f2e-ac4fdca47ae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.81 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 257.81 115.57)
+			(xy 257.81 118.11)
+		)
+		(stroke (width 0) (type default))
+		(uuid "d3c03e56-e9de-597b-bbf2-d72ba51fe7a7")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6687610-6bca-51d5-92ab-f64ea202936c")
+		(property "Reference" "#PWR021"
+			(at 257.81 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 257.81 121.92 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 257.81 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 257.81 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "9e24a72a-6327-53f3-bf45-109c753a386c")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 275.59 95.25)
+		(end 332.74 133.35)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "8d6f60a4-f68d-580d-93b5-671c205c8d41")
+	)
+	(text "LED 7"
+		(exclude_from_sim no)
+		(at 275.59 93.98 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "9e0d7b60-4717-59e4-82af-6dedee823876")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 294.64 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dcb3719-d8af-581f-b345-1652ea0b2a2d")
+		(property "Reference" "D7"
+			(at 299.72 109.855 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 295.91 121.285 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 295.91 123.19 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 297.18 125.095 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 294.64 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 294.64 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 294.64 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "59eda1e6-11c4-55f4-a9da-416cd8552e7f")
+		)
+		(pin "2"
+			(uuid "9b801de8-8418-5e1c-b73a-3c8436bdcd74")
+		)
+		(pin "3"
+			(uuid "aa0e0e4f-ca7b-5e43-b509-2b318f9c4c91")
+		)
+		(pin "4"
+			(uuid "8ab8dea8-bb73-5233-a014-92081a6b98b4")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 302.26 115.57)
+			(xy 304.8 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "aef585dd-3af7-5bc5-8014-d519592e2b61")
+	)
+	(global_label "D8"
+		(shape passive)
+		(at 304.8 115.57 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "a48abb3a-b8ba-5ba8-a6ef-0d8bb7ef4ffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 294.64 123.19)
+			(xy 294.64 125.73)
+		)
+		(stroke (width 0) (type default))
+		(uuid "5a2c7fe1-a6d8-5562-a641-4ed494a5728b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593d78f0-bf2b-57b0-9501-9fc054a5d081")
+		(property "Reference" "#PWR022"
+			(at 294.64 132.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 294.64 129.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 294.64 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 294.64 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "443a4687-610f-5867-bd0e-2ad63c7b204d")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 287.02 115.57)
+			(xy 284.48 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "f614a56f-de52-51a0-bc21-67baa1ded4c9")
+	)
+	(global_label "D7"
+		(shape passive)
+		(at 284.48 115.57 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "a4b933aa-6fe5-5620-9a92-89dca9c6a72e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.48 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 294.64 107.95)
+			(xy 294.64 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "6c1cb7d2-27c2-5fe7-abe5-456b54d3b363")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 294.64 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "62016a91-91f9-5620-80f5-c6bc9a671211")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.64 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 322.58 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d66202c-5098-561b-a23b-f3ed479aceff")
+		(property "Reference" "C10"
+			(at 322.58 109.22 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 322.58 114.3 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 323.5452 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 322.58 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 322.58 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 322.58 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 322.58 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "e066720a-108d-5241-81d4-2b693158a916")
+		)
+		(pin "2"
+			(uuid "a2efa127-32e1-59cb-b8da-322f8aab3ede")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 322.58 107.95)
+			(xy 322.58 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "600d9b68-a32d-563c-8bbc-dde20bf67a7c")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 322.58 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "4af963f6-beef-5277-aa1e-04a4867215ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 322.58 115.57)
+			(xy 322.58 118.11)
+		)
+		(stroke (width 0) (type default))
+		(uuid "8c63cf9b-d0ef-5f51-a306-68b47ea197e8")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be8f5f8-c55f-51b0-a0fc-a7ec73279465")
+		(property "Reference" "#PWR023"
+			(at 322.58 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 322.58 121.92 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 322.58 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 322.58 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "95676830-5375-5281-b685-0ab4b2734bcd")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 341.63 95.25)
+		(end 398.78 133.35)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "47e814fb-e86c-5b91-b297-28def6a008a3")
+	)
+	(text "LED 8"
+		(exclude_from_sim no)
+		(at 341.63 93.98 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "673b7ec0-0bad-54e5-8598-1ebacc67a3b4")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 360.68 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8292ba8d-6ab2-5f5d-8cff-2bf9ffe20903")
+		(property "Reference" "D8"
+			(at 365.76 109.855 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 361.95 121.285 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 361.95 123.19 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 363.22 125.095 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 360.68 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 360.68 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 360.68 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "6fd246de-9c3e-5936-90b8-66a51d70186e")
+		)
+		(pin "2"
+			(uuid "1e4aa785-9823-5350-b468-d7ad1eb6c2a3")
+		)
+		(pin "3"
+			(uuid "bf0fd649-e95e-517d-a1d1-a2a2e936cf0c")
+		)
+		(pin "4"
+			(uuid "820be402-a9bd-517b-b9dc-2f03671ca56a")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 368.3 115.57)
+			(xy 370.84 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "974d44b1-fda6-5555-ba64-da4d64c94201")
+	)
+	(global_label "D9"
+		(shape passive)
+		(at 370.84 115.57 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "e557efc6-a9ec-51cb-9f1e-41bef28f0096")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.84 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 360.68 123.19)
+			(xy 360.68 125.73)
+		)
+		(stroke (width 0) (type default))
+		(uuid "d9ef378d-abbd-561b-9d87-16e4af173b3e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360.68 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27a2720-d482-5d56-beaa-0821f943c8af")
+		(property "Reference" "#PWR024"
+			(at 360.68 132.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 360.68 129.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 360.68 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 360.68 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 360.68 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "a7fcabc9-6bd7-5699-9ed4-44d60a412b90")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 353.06 115.57)
+			(xy 350.52 115.57)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7aaa86f3-c3ef-5356-9937-ee063d9dd426")
+	)
+	(global_label "D8"
+		(shape passive)
+		(at 350.52 115.57 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "a5232c72-b37e-530b-a678-6a0a94cd4c7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 350.52 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 360.68 107.95)
+			(xy 360.68 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "1879cc7e-69f3-51f3-b07c-3852224d718f")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 360.68 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "6ebce88a-74f8-5a29-9a5c-f77ba3c66976")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 388.62 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f3c7a8b-6e55-5fbc-a379-a070aa66dd19")
+		(property "Reference" "C11"
+			(at 388.62 109.22 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 388.62 114.3 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 389.5852 115.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 388.62 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 388.62 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 388.62 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 388.62 111.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "1dd97f6f-2b86-5357-888e-8a0e57f34f31")
+		)
+		(pin "2"
+			(uuid "dc6469cd-e6c5-566e-a1db-fe978fdb9047")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 388.62 107.95)
+			(xy 388.62 105.41)
+		)
+		(stroke (width 0) (type default))
+		(uuid "acaab455-559e-5d0d-b831-492f8457e686")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 388.62 105.41 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "e5431803-5562-5cd7-9560-b31bab754088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.62 105.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 388.62 115.57)
+			(xy 388.62 118.11)
+		)
+		(stroke (width 0) (type default))
+		(uuid "db66a930-8dfb-5db9-bd47-eecbacc5a7ed")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add3439d-71c1-5a77-a95e-093c6ac96ecd")
+		(property "Reference" "#PWR025"
+			(at 388.62 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 388.62 121.92 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 388.62 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 388.62 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 118.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "e086d87b-4436-53cb-bd1f-9c694b078890")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 13.97 146.05)
+		(end 71.12 184.15)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "c69b7f38-2195-5459-b229-50ee5de568fb")
+	)
+	(text "LED 9"
+		(exclude_from_sim no)
+		(at 13.97 144.78 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "6cc940a5-7243-5873-8198-c24662691f95")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 33.02 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0a130b1-5f80-5a8e-aafb-c3e84f0783b3")
+		(property "Reference" "D9"
+			(at 38.1 160.655 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 34.29 172.085 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 34.29 173.99 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 35.56 175.895 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 33.02 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 33.02 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 33.02 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "24805dc0-b43b-5ece-b7d0-f39591c0dc79")
+		)
+		(pin "2"
+			(uuid "992dba6a-2811-5abf-977b-03c7c56b61e2")
+		)
+		(pin "3"
+			(uuid "7b66a446-c689-50d5-9e7c-e7adf8d475fa")
+		)
+		(pin "4"
+			(uuid "9eadd4f9-fd94-55ed-bb89-de9d2d24cc6e")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40.64 166.37)
+			(xy 43.18 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "146ac65a-60e7-5d31-81ed-e8f958373f5c")
+	)
+	(global_label "D10"
+		(shape passive)
+		(at 43.18 166.37 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "e1445317-6c30-527d-8906-cc42f876c0d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 173.99)
+			(xy 33.02 176.53)
+		)
+		(stroke (width 0) (type default))
+		(uuid "95213307-812d-553a-a344-b081850e9f38")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ecf9f4-e72b-59ab-8c59-47fce13b02ae")
+		(property "Reference" "#PWR026"
+			(at 33.02 182.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 33.02 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 33.02 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 33.02 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "5cac5893-0e6e-5bff-8f80-05d9bb6afdd6")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 25.4 166.37)
+			(xy 22.86 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "5c4c6246-0f58-5072-b9cd-2686543c0579")
+	)
+	(global_label "D9"
+		(shape passive)
+		(at 22.86 166.37 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "ade5bf05-5c13-5ada-ba44-a49bb29c370f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 158.75)
+			(xy 33.02 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e39ee0e7-99fd-5e93-8186-4d1dd93b8fea")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 33.02 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "40a46bdb-36f2-56bf-a22e-38fd416d04d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d353d3e2-2c1e-57e7-8002-23dcc40c76ee")
+		(property "Reference" "C12"
+			(at 60.96 160.02 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 60.96 165.1 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.9252 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 60.96 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 60.96 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 60.96 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "e7464ba1-419a-5085-acea-5c3951570d94")
+		)
+		(pin "2"
+			(uuid "2126ca4f-af2a-54fe-b0b6-e9bd6e186d33")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 60.96 158.75)
+			(xy 60.96 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "9e8bf874-bf34-5fe1-a143-2c50d3b3a91e")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 60.96 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "8cba41c6-4e0b-591d-9039-b129b642a267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 60.96 166.37)
+			(xy 60.96 168.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "1da84fdd-7f7b-5d33-953e-ac22d1f2c2f4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15fe2a21-655a-5f31-9aa6-6abbf1a0ff36")
+		(property "Reference" "#PWR027"
+			(at 60.96 175.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 60.96 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 60.96 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 60.96 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "43ab3f3f-1d71-5494-a6bc-0d826da7449b")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 80.01 146.05)
+		(end 138.43 184.15)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "af7fc8d1-a68d-5ab8-bcc7-243dca7e6452")
+	)
+	(text "LED 10"
+		(exclude_from_sim no)
+		(at 80.01 144.78 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "869751cf-ef90-5b31-b674-eeb41cebe874")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c0bd5d-9da6-5bc3-a398-be3550ecfc49")
+		(property "Reference" "D10"
+			(at 105.41 160.655 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 101.6 172.085 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 101.6 173.99 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 102.87 175.895 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 100.33 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 100.33 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "99efbed4-ca58-5485-bddb-11f4a6d53630")
+		)
+		(pin "2"
+			(uuid "99d2b40c-505f-5a74-a8c0-eec845a49675")
+		)
+		(pin "3"
+			(uuid "1818e3b5-bd7a-53e2-a935-a1dbea500764")
+		)
+		(pin "4"
+			(uuid "4d67d107-6ba8-5936-8a8f-12407d6d52ba")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 107.95 166.37)
+			(xy 110.49 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "dbf6a862-5e87-5ebc-987d-e988a90c3fec")
+	)
+	(global_label "D11"
+		(shape passive)
+		(at 110.49 166.37 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "3173a359-4c55-58cb-9f66-ec6155c02483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 100.33 173.99)
+			(xy 100.33 176.53)
+		)
+		(stroke (width 0) (type default))
+		(uuid "17efa871-ee02-5635-aceb-639bd7035469")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd858b0-70f4-5546-80d7-f7e6a4da8aae")
+		(property "Reference" "#PWR028"
+			(at 100.33 182.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 100.33 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 100.33 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 100.33 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "9e8bbecb-cc7f-57b6-b728-671946e2c2b2")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 92.71 166.37)
+			(xy 90.17 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "db5fe55c-44b9-5fb3-b1f1-130b0338f9ce")
+	)
+	(global_label "D10"
+		(shape passive)
+		(at 90.17 166.37 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "be209234-e2e8-5654-8f72-3659c8ccc45b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 100.33 158.75)
+			(xy 100.33 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "de563b52-c518-5989-8d77-13b64a75267f")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 100.33 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "ae90b059-0f1b-5b3d-aac5-a03a4458ef8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c784afe8-9a33-5902-b40e-a49d70c48fb1")
+		(property "Reference" "C13"
+			(at 129.54 160.02 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 129.54 165.1 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 129.2352 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 128.27 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 128.27 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 128.27 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "484de1b6-8295-5236-8cbd-d7d81cca73cd")
+		)
+		(pin "2"
+			(uuid "41b56e3d-5b88-5b8a-9843-4f0bfb9db100")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 128.27 158.75)
+			(xy 128.27 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "94f8ff7b-89f4-5cbd-9de9-bc2115c1b4a7")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 128.27 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "61252eda-7737-5c37-9dee-f612f826ec09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 128.27 166.37)
+			(xy 128.27 168.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "04692d1f-e573-58b8-a56b-799495397dae")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccab6370-e478-5f1d-8b1e-70dd80e70be0")
+		(property "Reference" "#PWR029"
+			(at 128.27 175.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 128.27 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 128.27 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 128.27 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "b627f97b-b48a-5404-bed6-f4814126f08d")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 146.05 146.05)
+		(end 204.47 184.15)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "d7820614-92ae-5d35-9f45-3cbf0e8ba646")
+	)
+	(text "LED 11"
+		(exclude_from_sim no)
+		(at 146.05 144.78 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "72c2ba71-75ff-5e88-bd7b-f603f8bfb399")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 166.37 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5660b717-f67f-5f3e-b66b-82b736849d04")
+		(property "Reference" "D11"
+			(at 171.45 160.655 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 167.64 172.085 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 167.64 173.99 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 168.91 175.895 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 166.37 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 166.37 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 166.37 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "b5bb9775-06c0-5d2d-a3f1-c0900fbc6b25")
+		)
+		(pin "2"
+			(uuid "bc1ab120-5126-5aea-910d-5a98a6e710bc")
+		)
+		(pin "3"
+			(uuid "89d87298-ad30-56b4-ae22-55609da13753")
+		)
+		(pin "4"
+			(uuid "3d13f249-c53c-5298-bac7-4f77bb9d1f0a")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 173.99 166.37)
+			(xy 176.53 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "1551127d-6ccd-57f0-8dc5-9c7fea5d63f0")
+	)
+	(global_label "D12"
+		(shape passive)
+		(at 176.53 166.37 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "86dcdbe8-a68f-5338-852d-67ea759c946f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 166.37 173.99)
+			(xy 166.37 176.53)
+		)
+		(stroke (width 0) (type default))
+		(uuid "fbe6c66e-a8b3-5174-bfe3-7b2898533830")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "429dfec0-ad96-590f-a056-9ce54af73e22")
+		(property "Reference" "#PWR030"
+			(at 166.37 182.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 166.37 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 166.37 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 166.37 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "96aa3b40-7474-5ac9-bfbc-d1770c3323e5")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 158.75 166.37)
+			(xy 156.21 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "b77c0a8b-b8d2-5f49-9b85-6fa78c5c0b78")
+	)
+	(global_label "D11"
+		(shape passive)
+		(at 156.21 166.37 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "4d757cc3-fb45-5ab4-8809-8f4b5b98dcf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 166.37 158.75)
+			(xy 166.37 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "3b6ef920-098d-5b08-8302-3c1004475173")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 166.37 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "c693cd4f-7ad1-56fa-b87b-69a3895c79ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4cdc797-f652-5d0c-aac6-653623ebb228")
+		(property "Reference" "C14"
+			(at 195.58 160.02 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 195.58 165.1 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 195.2752 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 194.31 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 194.31 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 194.31 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "98c14799-4307-50ef-b7f9-68dd962f3e3f")
+		)
+		(pin "2"
+			(uuid "e833ac46-f56f-58a0-a4aa-2ebb0257e943")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 194.31 158.75)
+			(xy 194.31 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "ef0dae68-476c-5237-8079-81c0c966506b")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 194.31 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "b44d0689-a23f-5258-b579-462490a22ccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 194.31 166.37)
+			(xy 194.31 168.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "a1e9298c-a416-5b1e-8cc2-ce5c1bf4c1d1")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f946ae2a-d17c-529b-add3-28872b690ac5")
+		(property "Reference" "#PWR031"
+			(at 194.31 175.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 194.31 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 194.31 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 194.31 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "01733abc-be80-51d5-a801-37dcce090bf9")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 212.09 146.05)
+		(end 270.51 184.15)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "21f8d3cb-5785-5773-9ca1-abc77cee9671")
+	)
+	(text "LED 12"
+		(exclude_from_sim no)
+		(at 212.09 144.78 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "c08b3ece-2732-5642-befe-cf4ceee057e1")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 232.41 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ebc1936-8840-506d-961b-18d1884f618b")
+		(property "Reference" "D12"
+			(at 237.49 160.655 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 233.68 172.085 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 233.68 173.99 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 234.95 175.895 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 232.41 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 232.41 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 232.41 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "59c234dc-0033-5539-9f9f-89564ccea04a")
+		)
+		(pin "2"
+			(uuid "bfcbd332-dd82-5fc6-a2d4-970f343e5f8b")
+		)
+		(pin "3"
+			(uuid "42c8ba8b-7d61-59dd-84fa-49217b363631")
+		)
+		(pin "4"
+			(uuid "4e297284-ae67-57ea-8e6f-718ed4fc1738")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 240.03 166.37)
+			(xy 242.57 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7524476a-96a3-5ea6-b906-e2bcbfe86f7e")
+	)
+	(global_label "D13"
+		(shape passive)
+		(at 242.57 166.37 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "a4ecc89f-7331-52ea-ab2a-d663692edd24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 173.99)
+			(xy 232.41 176.53)
+		)
+		(stroke (width 0) (type default))
+		(uuid "b51a8e77-9d2b-5ce5-8f12-5b384c507d3c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845035cd-90b8-56fa-9343-75d536626fc4")
+		(property "Reference" "#PWR032"
+			(at 232.41 182.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 232.41 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 232.41 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 232.41 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "653981bf-6f1c-545d-afde-052bdb8a1b76")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 224.79 166.37)
+			(xy 222.25 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "33aa8556-08d3-5e45-bbe0-461bfc007468")
+	)
+	(global_label "D12"
+		(shape passive)
+		(at 222.25 166.37 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "d65aa214-cccc-5ca4-9105-d3627fc3c4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 158.75)
+			(xy 232.41 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "13c95476-b8dd-5c43-9ef0-c4fc6f672012")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 232.41 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "5af79e41-d7b7-5bcb-8b64-c49ed6ff3583")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 260.35 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91e1bcef-c8ae-5168-b2db-6bf07d6f085a")
+		(property "Reference" "C15"
+			(at 261.62 160.02 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 261.62 165.1 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 261.3152 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 260.35 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 260.35 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 260.35 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 260.35 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "858cd976-7e0a-5ee3-bb10-3d2146228517")
+		)
+		(pin "2"
+			(uuid "a270f45e-c424-5d0f-aa2d-ed032df92738")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 260.35 158.75)
+			(xy 260.35 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "49578587-fbf3-5f05-b742-5a72a1e29c1d")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 260.35 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "15ac3fdf-e3a3-5d98-87d6-3ed38ad159ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 260.35 166.37)
+			(xy 260.35 168.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "caa6bc90-3c0a-52a7-9af8-344464f3b6f6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70510feb-40e6-562e-ad3a-673b9f4be422")
+		(property "Reference" "#PWR033"
+			(at 260.35 175.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 260.35 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 260.35 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 260.35 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "cfe45302-0e29-51a2-9c11-9ed9cb41e425")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 279.4 146.05)
+		(end 337.82 184.15)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "95a69055-c945-5343-997f-929ba5ee29a5")
+	)
+	(text "LED 13"
+		(exclude_from_sim no)
+		(at 279.4 144.78 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "42356eb9-43fa-5062-ae5f-79e2c646687f")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 299.72 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0589661-8420-57f3-aa20-8cc438283e43")
+		(property "Reference" "D13"
+			(at 304.8 160.655 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 300.99 172.085 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.99 173.99 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 302.26 175.895 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 299.72 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 299.72 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 299.72 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "3c479521-73da-508d-ad69-b549faf6b234")
+		)
+		(pin "2"
+			(uuid "5d4ca5f5-90e0-5ee9-a69f-7a884abe142b")
+		)
+		(pin "3"
+			(uuid "93da2128-3e10-58ae-ac5a-3d5649b4820a")
+		)
+		(pin "4"
+			(uuid "4e52a9c4-e308-5f08-8ca7-47556246779d")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 307.34 166.37)
+			(xy 309.88 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "ac45dab6-fa58-55d0-b83f-ccda75bb03aa")
+	)
+	(global_label "D14"
+		(shape passive)
+		(at 309.88 166.37 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "3c1c0315-70a0-5406-bed4-668e851b25d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.88 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 299.72 173.99)
+			(xy 299.72 176.53)
+		)
+		(stroke (width 0) (type default))
+		(uuid "4ab24e77-e783-547a-888a-b8da6fd37a25")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ae00102-201f-5d3b-88d4-0947984331ec")
+		(property "Reference" "#PWR034"
+			(at 299.72 182.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 299.72 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 299.72 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 299.72 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "180d7952-6143-5765-b88a-2a5f922da72f")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 292.1 166.37)
+			(xy 289.56 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "75d97e72-e4fd-595e-aa9c-593e6e13ce29")
+	)
+	(global_label "D13"
+		(shape passive)
+		(at 289.56 166.37 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "e689d45a-3fd2-5adc-af61-78da607d7160")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.56 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 299.72 158.75)
+			(xy 299.72 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "61f9aa78-4f1a-56f6-b237-7d3ad4fa0371")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 299.72 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "e8ef8ece-b458-527f-847b-de0dc2efd64e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.72 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 327.66 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d9a8b16-2699-5634-bcbd-dde8bea1821a")
+		(property "Reference" "C16"
+			(at 327.66 160.02 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 327.66 165.1 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 328.6252 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 327.66 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 327.66 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 327.66 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 327.66 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "aafb1a22-d7e2-50f1-846f-3bf409473d3c")
+		)
+		(pin "2"
+			(uuid "a22e7aff-cf09-5586-b5bc-3617ea7f1055")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 327.66 158.75)
+			(xy 327.66 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "90daca4a-c686-5b0c-adf5-77ccd5eb1495")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 327.66 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "7ba97901-baaa-50c0-aa83-edc4af339c23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.66 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 327.66 166.37)
+			(xy 327.66 168.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e6d27d45-a53c-572b-8dfa-60d6abdbd1c9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 327.66 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58eea63-0864-5fbe-955d-c75576182f61")
+		(property "Reference" "#PWR035"
+			(at 327.66 175.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 327.66 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 327.66 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 327.66 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "9f30d03d-830a-5f3e-9344-da25502eb7bc")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 345.44 146.05)
+		(end 403.86 184.15)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "85eadab4-e4b9-56da-94b5-d200ba04dddf")
+	)
+	(text "LED 14"
+		(exclude_from_sim no)
+		(at 345.44 144.78 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "a103a336-69cf-5a5b-b32d-899301404be6")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 365.76 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3b43ffa-3b19-576b-8bff-b0ebc3a27ee7")
+		(property "Reference" "D14"
+			(at 370.84 160.655 0)
+			(effects (font (size 1.27 1.27)) (justify right bottom))
+		)
+		(property "Value" "XL-2020RGBC-2812B"
+			(at 367.03 172.085 0)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 367.03 173.99 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 368.3 175.895 0)
+			(effects (font (size 1.27 1.27)) (justify left top) (hide yes))
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 365.76 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "XL-2020RGBC-2812B"
+			(at 365.76 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C5349955"
+			(at 365.76 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "09942d28-1c49-5986-adf2-ddb0f0b62197")
+		)
+		(pin "2"
+			(uuid "f498f66c-8c99-58fd-ac9c-628520dd6664")
+		)
+		(pin "3"
+			(uuid "8ca8b276-118f-5dec-82b0-dd06b27a040f")
+		)
+		(pin "4"
+			(uuid "5fe39b03-2092-529c-a6fa-82cd08e8a063")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 166.37)
+			(xy 375.92 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "05e27640-86f0-5503-ba78-4a9f1cd27fd1")
+	)
+	(global_label "D15"
+		(shape passive)
+		(at 375.92 166.37 0)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "a1902cc6-521d-578a-b4ba-05f0c120c45e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 365.76 173.99)
+			(xy 365.76 176.53)
+		)
+		(stroke (width 0) (type default))
+		(uuid "cbe01b61-6d8e-58fb-b2a4-d57cc2d6a839")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 365.76 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98d7963-264b-5ce7-824f-79918bf269a9")
+		(property "Reference" "#PWR036"
+			(at 365.76 182.88 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 365.76 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 365.76 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 365.76 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 365.76 176.53 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "ca9a9010-3303-506b-b05f-5204f8b197ca")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 358.14 166.37)
+			(xy 355.6 166.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "82668b15-8696-567b-ab0e-979ed24f7b64")
+	)
+	(global_label "D14"
+		(shape passive)
+		(at 355.6 166.37 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "e8bca5ef-b4d2-5a45-9d6b-29618100739c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 365.76 158.75)
+			(xy 365.76 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "8a82237f-69f7-5bad-9503-c3a9f56df3e8")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 365.76 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "d1d2292c-c1f8-5e19-85d4-4d468244918e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.76 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 393.7 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e8fa17-a761-5863-8e3e-cf3ef74a4cb7")
+		(property "Reference" "C17"
+			(at 393.7 160.02 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100nF"
+			(at 393.7 165.1 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 394.6652 166.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 393.7 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 393.7 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 393.7 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 393.7 162.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "15ea2ad8-c2af-5507-aeb3-fa551586c242")
+		)
+		(pin "2"
+			(uuid "45cb61be-2539-5107-9206-1a17ece5363a")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 393.7 158.75)
+			(xy 393.7 156.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "0364cff5-87b3-589a-8020-33423bbe2dcf")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 393.7 156.21 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "f8cc3c10-a0d1-540d-bd93-3ec17efc292f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 393.7 156.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 393.7 166.37)
+			(xy 393.7 168.91)
+		)
+		(stroke (width 0) (type default))
+		(uuid "05cb9139-df27-578c-8e8a-039437baea0a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 393.7 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2aeecb-d914-5b07-a6cb-995556f7ede8")
+		(property "Reference" "#PWR037"
+			(at 393.7 175.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 393.7 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 393.7 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 393.7 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 393.7 168.91 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "15a76a6a-c45f-5f77-9d8b-fce1b9a57cb5")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 13.97 199.39)
+		(end 44.45 219.71)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "466dd274-2ddc-5962-be33-0d2d5225955a")
+	)
+	(text "LED chain out"
+		(exclude_from_sim no)
+		(at 13.97 198.12 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "34d8e47b-66ec-5b67-9f4e-a7f362790f3e")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 31.75 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6410b326-98ae-54b5-8b89-9d31d694da22")
+		(property "Reference" "J3"
+			(at 31.75 204.47 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "OUT"
+			(at 31.75 214.63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 31.75 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 31.75 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "PZ254V-11-03P"
+			(at 31.75 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2937625"
+			(at 31.75 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "e7a7403c-2509-5d31-8ff7-5917dc9b69ca")
+		)
+		(pin "2"
+			(uuid "e03c5e58-fc89-51be-8c7a-4b847bed70d5")
+		)
+		(pin "3"
+			(uuid "8790191d-4139-55cf-8d3c-6ef29e98f3b9")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 26.67 207.01)
+			(xy 24.13 207.01)
+		)
+		(stroke (width 0) (type default))
+		(uuid "8fbf5455-9a23-5a74-8ac5-37c096fea5c7")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 24.13 207.01 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "472957a8-1d6e-5cab-aa38-73e56352cd2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 207.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 26.67 209.55)
+			(xy 24.13 209.55)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7d9ce3cb-a4e0-5d8d-9c2c-cb150e771c91")
+	)
+	(global_label "D15"
+		(shape passive)
+		(at 24.13 209.55 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "27dee62f-4b95-5a4c-8e90-fb25830faa86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(wire
+		(pts
+			(xy 26.67 212.09)
+			(xy 24.13 212.09)
+		)
+		(stroke (width 0) (type default))
+		(uuid "ac318941-d413-50f1-afdd-faae6cad3e3e")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 24.13 212.09 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "ac41164f-cb40-5be2-a464-731140ddf3cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 212.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(rectangle
+		(start 52.07 199.39)
+		(end 80.01 227.33)
+		(stroke (width 0.1524) (type dash) (color 72 72 72 1))
+		(fill (type none))
+		(uuid "409f5c0d-2673-5ab5-888a-1fe032fb67ef")
+	)
+	(text "Power flags"
+		(exclude_from_sim no)
+		(at 52.07 198.12 0)
+		(effects (font (size 2 2) (bold yes)) (justify left bottom))
+		(uuid "f4a0944f-3d4a-5823-bcae-d73856bc5100")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf0206b-d5b8-5c1b-9cdd-a25048327a5b")
+		(property "Reference" "#FLG038"
+			(at 58.42 206.375 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 204.47 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 58.42 208.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 58.42 208.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 208.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "ffadc367-276e-59bc-90cd-f7c3bb30a1bc")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#FLG038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 58.42 208.28)
+			(xy 58.42 210.82)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e6a89c8b-0ec8-5a55-8480-8d1cc355d928")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0243a168-a03f-57b7-9ca8-ce95255ab096")
+		(property "Reference" "#PWR039"
+			(at 58.42 217.17 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 58.42 214.63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 58.42 210.82 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 58.42 210.82 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 210.82 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "b035bb0d-7459-5496-9c82-3bf5444f75fc")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 68.58 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f3d41e-06bf-511a-85cb-368d6a6f6a36")
+		(property "Reference" "#FLG040"
+			(at 68.58 206.375 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 204.47 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 68.58 208.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 68.58 208.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 208.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1"
+			(uuid "170024f6-1c0a-58ea-b2a0-d77fe77e3c71")
+		)
+		(instances
+			(project "art_castle_key"
+				(path "/d567c7f3-0f05-5082-a9ad-e9e7f5e7c957"
+					(reference "#FLG040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 68.58 208.28)
+			(xy 68.58 210.82)
+		)
+		(stroke (width 0) (type default))
+		(uuid "2228e26a-fba2-5869-817d-7139c7188e6d")
+	)
+	(global_label "5V"
+		(shape input)
+		(at 68.58 210.82 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "3b1aec8d-4af0-5bed-8fe4-3580000a62e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 210.82 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
