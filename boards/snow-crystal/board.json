@@ -1,0 +1,383 @@
+{
+  "name": "art_snow_crystal",
+  "title": "HeyPCB SNOWFLAKE - Snowflake LED art board",
+  "revision": "A",
+  "brief": "Snowflake LED art board: a star-shaped white-mask board with 6 addressable RGB LEDs on its outline, a CH32V003 controller at 5 V, a mode button and USB-C power; 79.69 x 99.01 mm, 4 layers.",
+  "blocks": [
+    {
+      "block": "usb_c_data_5v",
+      "as": "usb",
+      "title": "USB-C 5 V in",
+      "nets": {
+        "VBUS": "5V"
+      }
+    },
+    {
+      "block": "ch32_led_core",
+      "as": "core",
+      "title": "CH32V003 LED controller",
+      "nets": {
+        "5V": "5V",
+        "LED_DATA": "D1"
+      }
+    },
+    {
+      "block": "pixel_xl2020",
+      "as": "px1",
+      "title": "LED 1",
+      "nets": {
+        "5V": "5V",
+        "DIN": "D1",
+        "DOUT": "D2"
+      }
+    },
+    {
+      "block": "pixel_xl2020",
+      "as": "px2",
+      "title": "LED 2",
+      "nets": {
+        "5V": "5V",
+        "DIN": "D2",
+        "DOUT": "D3"
+      }
+    },
+    {
+      "block": "pixel_xl2020",
+      "as": "px3",
+      "title": "LED 3",
+      "nets": {
+        "5V": "5V",
+        "DIN": "D3",
+        "DOUT": "D4"
+      }
+    },
+    {
+      "block": "pixel_xl2020",
+      "as": "px4",
+      "title": "LED 4",
+      "nets": {
+        "5V": "5V",
+        "DIN": "D4",
+        "DOUT": "D5"
+      }
+    },
+    {
+      "block": "pixel_xl2020",
+      "as": "px5",
+      "title": "LED 5",
+      "nets": {
+        "5V": "5V",
+        "DIN": "D5",
+        "DOUT": "D6"
+      }
+    },
+    {
+      "block": "pixel_xl2020",
+      "as": "px6",
+      "title": "LED 6",
+      "nets": {
+        "5V": "5V",
+        "DIN": "D6",
+        "DOUT": "D7"
+      }
+    },
+    {
+      "block": "led_chain_out",
+      "as": "out",
+      "title": "LED chain out",
+      "nets": {
+        "5V": "5V",
+        "DOUT": "D7"
+      }
+    }
+  ],
+  "pwrFlags": [
+    "GND",
+    "5V"
+  ],
+  "netClasses": [
+    {
+      "name": "PWR",
+      "nets": [
+        "5V"
+      ],
+      "track": 0.5,
+      "clearance": 0.15,
+      "via": [
+        0.6,
+        0.3
+      ],
+      "why": "5 V to the LED chain; the chain's current is capped in firmware to the USB budget"
+    }
+  ],
+  "board": {
+    "width": 79.69,
+    "height": 99.01,
+    "layers": 4,
+    "planes": {},
+    "origin": [
+      100.0,
+      100.0
+    ],
+    "corner_radius": 0.0,
+    "shape": {
+      "type": "polygon",
+      "points": [
+        [
+          48.837,
+          61.588
+        ],
+        [
+          79.674,
+          69.0
+        ],
+        [
+          57.837,
+          46.0
+        ],
+        [
+          79.674,
+          23.0
+        ],
+        [
+          48.837,
+          30.412
+        ],
+        [
+          39.837,
+          0.0
+        ],
+        [
+          30.837,
+          30.412
+        ],
+        [
+          0.0,
+          23.0
+        ],
+        [
+          21.837,
+          46.0
+        ],
+        [
+          0.0,
+          69.0
+        ],
+        [
+          30.837,
+          61.588
+        ],
+        [
+          31.837,
+          64.968
+        ],
+        [
+          31.837,
+          99.0
+        ],
+        [
+          47.837,
+          99.0
+        ],
+        [
+          47.837,
+          64.968
+        ]
+      ],
+      "fillets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "mask_color": "White",
+    "rules": {
+      "clearance": 0.15,
+      "track": 0.2,
+      "via": [
+        0.6,
+        0.3
+      ],
+      "edge_clearance": 0.5,
+      "hole_to_hole": 0.5,
+      "min_through_hole": 0.3,
+      "min_track": 0.15,
+      "why_min_track": "Freerouting necks into 0.65 mm-pitch TSSOP pins; JLCPCB multilayer builds 0.09 mm"
+    },
+    "notes": "4 signal layers routed by Freerouting (a plane layer reaches the router as an empty power layer, so it neither connects nor routes: measured on art_red_star, 32 open with two planes), then poured after routing."
+  },
+  "placement": {
+    "usb:J?": {
+      "edge": "bottom",
+      "x": 0.0,
+      "overhang": 0.6,
+      "why": "USB-C on the tab at the bottom"
+    },
+    "core:U?": {
+      "at": [
+        39.74,
+        45.92
+      ],
+      "rot": 0,
+      "why": "controller at the deepest point inside the outline"
+    },
+    "px1:D?": {
+      "lock": [
+        60.37,
+        59.732
+      ],
+      "from_center": false,
+      "rot": 0,
+      "why": "LED 1 of 6 on the outline inset 4.5 mm"
+    },
+    "px1:C?": {
+      "lock": [
+        61.071,
+        56.815
+      ],
+      "from_center": false,
+      "rot": 0,
+      "why": "LED 1's 100 nF 3 mm inside it, leaving room for the vias down to the planes"
+    },
+    "px2:D?": {
+      "lock": [
+        58.81,
+        38.44
+      ],
+      "from_center": false,
+      "rot": 90,
+      "why": "LED 2 of 6 on the outline inset 4.5 mm"
+    },
+    "px2:C?": {
+      "lock": [
+        56.634,
+        36.375
+      ],
+      "from_center": false,
+      "rot": 90,
+      "why": "LED 2's 100 nF 3 mm inside it, leaving room for the vias down to the planes"
+    },
+    "px3:D?": {
+      "lock": [
+        44.09,
+        30.227
+      ],
+      "from_center": false,
+      "rot": 90,
+      "why": "LED 3 of 6 on the outline inset 4.5 mm"
+    },
+    "px3:C?": {
+      "lock": [
+        41.213,
+        31.078
+      ],
+      "from_center": false,
+      "rot": 90,
+      "why": "LED 3's 100 nF 3 mm inside it, leaving room for the vias down to the planes"
+    },
+    "px4:D?": {
+      "lock": [
+        24.413,
+        58.504
+      ],
+      "from_center": false,
+      "rot": 0,
+      "why": "LED 4 of 6 on the outline inset 4.5 mm"
+    },
+    "px4:C?": {
+      "lock": [
+        23.712,
+        55.587
+      ],
+      "from_center": false,
+      "rot": 0,
+      "why": "LED 4's 100 nF 3 mm inside it, leaving room for the vias down to the planes"
+    },
+    "px5:D?": {
+      "lock": [
+        36.337,
+        83.015
+      ],
+      "from_center": false,
+      "rot": 270,
+      "why": "LED 5 of 6 on the outline inset 4.5 mm"
+    },
+    "px5:C?": {
+      "lock": [
+        39.337,
+        83.015
+      ],
+      "from_center": false,
+      "rot": 270,
+      "why": "LED 5's 100 nF 3 mm inside it, leaving room for the vias down to the planes"
+    },
+    "px6:D?": {
+      "lock": [
+        43.337,
+        77.761
+      ],
+      "from_center": false,
+      "rot": 90,
+      "why": "LED 6 of 6 on the outline inset 4.5 mm"
+    },
+    "px6:C?": {
+      "lock": [
+        40.337,
+        77.761
+      ],
+      "from_center": false,
+      "rot": 90,
+      "why": "LED 6's 100 nF 3 mm inside it, leaving room for the vias down to the planes"
+    },
+    "out:J?": {
+      "at": [
+        39.74,
+        41.42
+      ],
+      "rot": 90,
+      "why": "chain-out header above the controller"
+    }
+  },
+  "route": {
+    "passes": 30,
+    "fanout": true,
+    "solve_s": 300,
+    "why": "default ladder"
+  },
+  "stitch_pitch": 6.0,
+  "silk": {
+    "words": {
+      "core:SW?": "MODE",
+      "core:J?": "SWIO"
+    },
+    "title": [
+      {
+        "text": "SNOWFLAKE",
+        "y": 33.9,
+        "size": 1.6,
+        "bold": true
+      },
+      {
+        "text": "a snowflake for a winter film",
+        "y": 36.4,
+        "size": 0.8
+      }
+    ]
+  },
+  "captions": {
+    "place_3d": "SNOWFLAKE: LEDs around the outline, the controller above the USB-C tab.",
+    "done_3d": "Snowflake LED art board"
+  }
+}

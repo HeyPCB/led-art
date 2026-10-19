@@ -34,11 +34,25 @@
       "summary": "A purple crescent moon lit along its curve: the full-moon-is-coming shot of every werewolf film, gentle enough for a bedroom."
     },
     {
+      "slug": "crystal",
+      "path": "boards/crystal",
+      "title": "HeyPCB Crystal",
+      "role": "Crystal LED art, purple mask",
+      "summary": "A purple diamond crystal with light running up its facets: the power crystal every fantasy quest is chasing."
+    },
+    {
       "slug": "flying-saucer",
       "path": "boards/flying-saucer",
       "title": "HeyPCB Saucer",
       "role": "Saucer LED art, green mask",
       "summary": "A green flying saucer with running lights round its rim and dome: the drive-in alien invasion, landed on your desk."
+    },
+    {
+      "slug": "galaxy",
+      "path": "boards/galaxy",
+      "title": "HeyPCB Galaxy",
+      "role": "Galaxy LED art, purple mask",
+      "summary": "A purple eight-point star whose light spirals out like a galaxy on a starship's viewscreen."
     },
     {
       "slug": "ghost-trap",
@@ -48,11 +62,25 @@
       "summary": "A white ghost with LEDs around its wavy hem, for the night after a ghost-hunting film: it breathes slowly, then flickers when you press MODE."
     },
     {
+      "slug": "heptagon-coin",
+      "path": "boards/heptagon-coin",
+      "title": "HeyPCB Coin",
+      "role": "Coin LED art, yellow mask",
+      "summary": "A yellow seven-sided coin from a pirate's treasure chest, with a lit rim that glints."
+    },
+    {
       "slug": "hero-shield",
       "path": "boards/hero-shield",
       "title": "HeyPCB Hero Shield",
       "role": "Hero Shield LED art, blue mask",
       "summary": "A blue shield with a lit rim: the hero-crest badge of a hundred adventure films, chained to a second board through its OUT header."
+    },
+    {
+      "slug": "hive-cell",
+      "path": "boards/hive-cell",
+      "title": "HeyPCB Hive Cell",
+      "role": "Hive Cell LED art, yellow mask",
+      "summary": "A yellow hexagon with LEDs round its edge: one cell of a honeycomb wall, like the alien hive in a creature feature. Chain several with the OUT header."
     },
     {
       "slug": "hyperdrive",
@@ -90,6 +118,13 @@
       "summary": "A black cat-head night light whose outline glows like a cat's eyes in a dark alley in an old noir film."
     },
     {
+      "slug": "monarch",
+      "path": "boards/monarch",
+      "title": "HeyPCB Monarch",
+      "role": "Monarch LED art, yellow mask",
+      "summary": "A yellow butterfly whose wings ripple with colour, like the opening shot of a nature documentary."
+    },
+    {
       "slug": "moon-rocket",
       "path": "boards/moon-rocket",
       "title": "HeyPCB Moon Rocket",
@@ -102,6 +137,13 @@
       "title": "HeyPCB Nebula",
       "role": "Nebula LED art, purple mask",
       "summary": "A purple cloud-shaped nebula that drifts through colours, like a deep-space backdrop."
+    },
+    {
+      "slug": "night-bat",
+      "path": "boards/night-bat",
+      "title": "HeyPCB Night Wing",
+      "role": "Night Wing LED art, black mask",
+      "summary": "A black bat with LEDs along both wings, for the rooftop silhouette in every caped-crusader film: it sweeps light from wingtip to wingtip."
     },
     {
       "slug": "night-ghost",
@@ -123,6 +165,20 @@
       "title": "HeyPCB Rock Pick",
       "role": "Rock Pick LED art, black mask",
       "summary": "A black guitar-pick board that flashes along its edge: the encore light from every rock-concert film."
+    },
+    {
+      "slug": "sheriff",
+      "path": "boards/sheriff",
+      "title": "HeyPCB Sheriff",
+      "role": "Sheriff LED art, yellow mask",
+      "summary": "A yellow six-point star with a lit rim: the sheriff's badge from every western, as a pin that glows at sundown."
+    },
+    {
+      "slug": "snow-crystal",
+      "path": "boards/snow-crystal",
+      "title": "HeyPCB Snowflake",
+      "role": "Snowflake LED art, white mask",
+      "summary": "A white six-point snowflake that sparkles cold blue: the first-snow scene of a winter film."
     },
     {
       "slug": "stop-sign",
