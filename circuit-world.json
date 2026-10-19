@@ -27,6 +27,13 @@
       "summary": "A red heart whose outline beats like the hospital monitor in a medical drama: slow and steady, faster when you tap MODE."
     },
     {
+      "slug": "chest-reactor",
+      "path": "boards/chest-reactor",
+      "title": "HeyPCB Chest Reactor",
+      "role": "Chest Reactor LED art, white mask",
+      "summary": "A round white board with a ring of LEDs around a hole in the middle: the arc-light chest piece from a hundred superhero props, made as a real circuit you can wear over a T-shirt."
+    },
+    {
       "slug": "crescent-moon",
       "path": "boards/crescent-moon",
       "title": "HeyPCB Crescent",
@@ -39,6 +46,20 @@
       "title": "HeyPCB Crystal",
       "role": "Crystal LED art, purple mask",
       "summary": "A purple diamond crystal with light running up its facets: the power crystal every fantasy quest is chasing."
+    },
+    {
+      "slug": "donut",
+      "path": "boards/donut",
+      "title": "HeyPCB Donut",
+      "role": "Donut LED art, purple mask",
+      "summary": "A purple ring with a 32 mm hole, its LEDs chasing round like a portal opening in a sci-fi film."
+    },
+    {
+      "slug": "eclipse",
+      "path": "boards/eclipse",
+      "title": "HeyPCB Eclipse",
+      "role": "Eclipse LED art, black mask",
+      "summary": "A black ring with a 48 mm hole, lit round its rim like the corona of a solar eclipse in a cosmic film."
     },
     {
       "slug": "flying-saucer",
@@ -60,6 +81,13 @@
       "title": "HeyPCB Ghost Trap",
       "role": "Ghost Trap LED art, white mask",
       "summary": "A white ghost with LEDs around its wavy hem, for the night after a ghost-hunting film: it breathes slowly, then flickers when you press MODE."
+    },
+    {
+      "slug": "haunted-house",
+      "path": "boards/haunted-house",
+      "title": "HeyPCB Haunted",
+      "role": "Haunted LED art, black mask",
+      "summary": "A black house outline whose eaves flicker like candlelight, for the night after a haunted-house film."
     },
     {
       "slug": "heptagon-coin",
@@ -153,6 +181,13 @@
       "summary": "A smaller purple ghost that jumps from dim to bright when you press MODE: a jump-scare in a pocket."
     },
     {
+      "slug": "pentagon",
+      "path": "boards/pentagon",
+      "title": "HeyPCB Pentagon",
+      "role": "Pentagon LED art, green mask",
+      "summary": "A green pentagon with a running-light rim: the summoning sign from a horror film, harmless and bright."
+    },
+    {
       "slug": "pirate-skull",
       "path": "boards/pirate-skull",
       "title": "HeyPCB Skull",
@@ -160,11 +195,25 @@
       "summary": "A black skull with a glowing outline, for the night after a pirate film: it glows green or red, your choice in firmware."
     },
     {
+      "slug": "red-star",
+      "path": "boards/red-star",
+      "title": "HeyPCB Red Star",
+      "role": "Red Star LED art, red mask",
+      "summary": "A five-point star in red solder mask with thirty RGB LEDs tracing its outline: the kind of hero emblem a film costume department would glue to a chest plate."
+    },
+    {
       "slug": "rock-pick",
       "path": "boards/rock-pick",
       "title": "HeyPCB Rock Pick",
       "role": "Rock Pick LED art, black mask",
       "summary": "A black guitar-pick board that flashes along its edge: the encore light from every rock-concert film."
+    },
+    {
+      "slug": "royal-diamond",
+      "path": "boards/royal-diamond",
+      "title": "HeyPCB Jewel",
+      "role": "Jewel LED art, red mask",
+      "summary": "A red diamond: the ruby at the centre of every jewel-heist film, lit like it is under the museum spotlight."
     },
     {
       "slug": "sheriff",
@@ -195,6 +244,13 @@
       "summary": "A white cloud whose outline glows and flickers like lightning: the storm rolling in over the farmhouse in a disaster film."
     },
     {
+      "slug": "tin-robot",
+      "path": "boards/tin-robot",
+      "title": "HeyPCB Tin Robot",
+      "role": "Tin Robot LED art, white mask",
+      "summary": "A white robot head with an antenna and ears, lit round its edge like the friendly robot sidekick in a family sci-fi film."
+    },
+    {
       "slug": "ufo-green",
       "path": "boards/ufo-green",
       "title": "HeyPCB Little Green",
@@ -207,6 +263,13 @@
       "title": "HeyPCB Engine Room",
       "role": "Engine Room LED art, blue mask",
       "summary": "A blue gear with a hub hole, its LEDs running around the teeth like the boiler-room dials in a steampunk adventure film."
+    },
+    {
+      "slug": "wizard-star",
+      "path": "boards/wizard-star",
+      "title": "HeyPCB Wizard",
+      "role": "Wizard LED art, blue mask",
+      "summary": "A blue seven-point star like the ones on a wizard's robe in a fantasy film."
     }
   ]
 }
