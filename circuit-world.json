@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "project": {
+    "title": "HeyPCB LED Art",
+    "summary": "Shaped LED boards inspired by films: stars, ghosts, cats, rockets, gears, moons, saucers and shields, each in its own colour. KiCad 10, JLCPCB-ready, CERN-OHL-S-2.0."
+  },
+  "boards": [
+    {
+      "slug": "big-moon",
+      "path": "boards/big-moon",
+      "title": "HeyPCB Full Moon",
+      "role": "Full Moon LED art, white mask",
+      "summary": "A white full-moon disc with a ring of light: the full moon behind the castle in a monster film."
+    },
+    {
+      "slug": "blast-gear",
+      "path": "boards/blast-gear",
+      "title": "HeyPCB Clockwork",
+      "role": "Clockwork LED art, black mask",
+      "summary": "A black clockwork gear whose single lit tooth ticks round like a time-travel clock."
+    },
+    {
+      "slug": "broken-heart",
+      "path": "boards/broken-heart",
+      "title": "HeyPCB Heartbeat",
+      "role": "Heartbeat LED art, red mask",
+      "summary": "A red heart whose outline beats like the hospital monitor in a medical drama: slow and steady, faster when you tap MODE."
+    },
+    {
+      "slug": "crescent-moon",
+      "path": "boards/crescent-moon",
+      "title": "HeyPCB Crescent",
+      "role": "Crescent LED art, purple mask",
+      "summary": "A purple crescent moon lit along its curve: the full-moon-is-coming shot of every werewolf film, gentle enough for a bedroom."
+    },
+    {
+      "slug": "flying-saucer",
+      "path": "boards/flying-saucer",
+      "title": "HeyPCB Saucer",
+      "role": "Saucer LED art, green mask",
+      "summary": "A green flying saucer with running lights round its rim and dome: the drive-in alien invasion, landed on your desk."
+    },
+    {
+      "slug": "ghost-trap",
+      "path": "boards/ghost-trap",
+      "title": "HeyPCB Ghost Trap",
+      "role": "Ghost Trap LED art, white mask",
+      "summary": "A white ghost with LEDs around its wavy hem, for the night after a ghost-hunting film: it breathes slowly, then flickers when you press MODE."
+    },
+    {
+      "slug": "hero-shield",
+      "path": "boards/hero-shield",
+      "title": "HeyPCB Hero Shield",
+      "role": "Hero Shield LED art, blue mask",
+      "summary": "A blue shield with a lit rim: the hero-crest badge of a hundred adventure films, chained to a second board through its OUT header."
+    },
+    {
+      "slug": "hyperdrive",
+      "path": "boards/hyperdrive",
+      "title": "HeyPCB Hyperdrive",
+      "role": "Hyperdrive LED art, black mask",
+      "summary": "A black octagon whose LEDs spin up like a starship engine before the jump to lightspeed: the cockpit-panel moment of every space film, as a desk light."
+    },
+    {
+      "slug": "kitty-pink",
+      "path": "boards/kitty-pink",
+      "title": "HeyPCB Neon Kitty",
+      "role": "Neon Kitty LED art, red mask",
+      "summary": "A red cat-head sign that glows like the neon over a rainy street in a cyberpunk film."
+    },
+    {
+      "slug": "knight-shield",
+      "path": "boards/knight-shield",
+      "title": "HeyPCB Knight",
+      "role": "Knight LED art, black mask",
+      "summary": "A black shield for the knight in a medieval epic, with a rim that glows like torchlight."
+    },
+    {
+      "slug": "lucky-heart",
+      "path": "boards/lucky-heart",
+      "title": "HeyPCB Love Letter",
+      "role": "Love Letter LED art, purple mask",
+      "summary": "A smaller purple heart for a love-letter film: tape it inside a card and it glows when the button is pressed."
+    },
+    {
+      "slug": "midnight-cat",
+      "path": "boards/midnight-cat",
+      "title": "HeyPCB Midnight Cat",
+      "role": "Midnight Cat LED art, black mask",
+      "summary": "A black cat-head night light whose outline glows like a cat's eyes in a dark alley in an old noir film."
+    },
+    {
+      "slug": "moon-rocket",
+      "path": "boards/moon-rocket",
+      "title": "HeyPCB Moon Rocket",
+      "role": "Moon Rocket LED art, white mask",
+      "summary": "A white retro rocket with a fin-to-nose LED outline: the silver-screen moon ship from a 1950s B-movie, as a shelf light."
+    },
+    {
+      "slug": "nebula-cloud",
+      "path": "boards/nebula-cloud",
+      "title": "HeyPCB Nebula",
+      "role": "Nebula LED art, purple mask",
+      "summary": "A purple cloud-shaped nebula that drifts through colours, like a deep-space backdrop."
+    },
+    {
+      "slug": "night-ghost",
+      "path": "boards/night-ghost",
+      "title": "HeyPCB Boo",
+      "role": "Boo LED art, purple mask",
+      "summary": "A smaller purple ghost that jumps from dim to bright when you press MODE: a jump-scare in a pocket."
+    },
+    {
+      "slug": "pirate-skull",
+      "path": "boards/pirate-skull",
+      "title": "HeyPCB Skull",
+      "role": "Skull LED art, black mask",
+      "summary": "A black skull with a glowing outline, for the night after a pirate film: it glows green or red, your choice in firmware."
+    },
+    {
+      "slug": "rock-pick",
+      "path": "boards/rock-pick",
+      "title": "HeyPCB Rock Pick",
+      "role": "Rock Pick LED art, black mask",
+      "summary": "A black guitar-pick board that flashes along its edge: the encore light from every rock-concert film."
+    },
+    {
+      "slug": "stop-sign",
+      "path": "boards/stop-sign",
+      "title": "HeyPCB Halt",
+      "role": "Halt LED art, red mask",
+      "summary": "A red octagon whose outline flashes like the warning lights in a heist film when the alarm trips."
+    },
+    {
+      "slug": "storm-cloud",
+      "path": "boards/storm-cloud",
+      "title": "HeyPCB Storm Cloud",
+      "role": "Storm Cloud LED art, white mask",
+      "summary": "A white cloud whose outline glows and flickers like lightning: the storm rolling in over the farmhouse in a disaster film."
+    },
+    {
+      "slug": "ufo-green",
+      "path": "boards/ufo-green",
+      "title": "HeyPCB Little Green",
+      "role": "Little Green LED art, black mask",
+      "summary": "A black saucer whose running lights blink green, for the night the visitors land in the cornfield."
+    },
+    {
+      "slug": "war-gear",
+      "path": "boards/war-gear",
+      "title": "HeyPCB Engine Room",
+      "role": "Engine Room LED art, blue mask",
+      "summary": "A blue gear with a hub hole, its LEDs running around the teeth like the boiler-room dials in a steampunk adventure film."
+    }
+  ]
+}
