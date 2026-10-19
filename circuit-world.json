@@ -6,6 +6,13 @@
   },
   "boards": [
     {
+      "slug": "arcade-invader",
+      "path": "boards/arcade-invader",
+      "title": "HeyPCB Invader",
+      "role": "Invader LED art, green mask",
+      "summary": "A pixel alien from the arcade era, marching down the screen in blocky steps. The people who wrote those games lost a lot of coins to them first."
+    },
+    {
       "slug": "big-moon",
       "path": "boards/big-moon",
       "title": "HeyPCB Full Moon",
@@ -242,6 +249,13 @@
       "title": "HeyPCB Skull",
       "role": "Skull LED art, black mask",
       "summary": "A black skull with a glowing outline, for the night after a pirate film: it glows green or red, your choice in firmware."
+    },
+    {
+      "slug": "power-shroom",
+      "path": "boards/power-shroom",
+      "title": "HeyPCB 1Up",
+      "role": "1Up LED art, red mask",
+      "summary": "A red-capped power-up mushroom from a side-scrolling quest. Every hero in those games dies dozens of times before the last level."
     },
     {
       "slug": "red-star",
